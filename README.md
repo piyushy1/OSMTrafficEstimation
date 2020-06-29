@@ -25,7 +25,11 @@ Camera Link {Please Connect to author for dataset}
 
 
 ## References
-Yadav, Piyush, Dipto Sarkar, Dhaval Salwala, and Edward Curry. “Complex Event Processing based Near Real-Time Traffic Prediction Framework for OpenStreetMap using Open Traffic Cameras”. In 11th International Conference on Geographic Information Systems (GIScience 2020), 2020.
+
+Conference | References
+------------ | -------------
+GIScience 2020 | Yadav, Piyush, Dipto Sarkar, Dhaval Salwala, and Edward Curry. “Complex Event Processing based Near Real-Time Traffic Prediction Framework for OpenStreetMap using Open Traffic Cameras”. In 11th International Conference on Geographic Information Systems (GIScience 2020), 2020.
+IEEE Big Data 2019 | Yadav, Piyush, Edward Curry. "VidCEP: Complex Event Processing Framework to Detect Spatiotemporal Patterns in Video Streams". In IEEE Big Data, Los Angeles 2019
 
 ## Contact
 Email <piyushy1@gmail.com>

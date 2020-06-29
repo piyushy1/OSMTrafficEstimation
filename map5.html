@@ -1,0 +1,1531 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_721a32dc734d4315b5b67cd2a252c1ac {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+    
+            <style> #vega_3b5b70fb5093426db9d1654bd299bbbb {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vega/1.4.3/vega.min.js"></script>
+    
+            <style> #vega_e21083264a59427cbb50d696e10ccb30 {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_170569826d7b4b9b8bf094e245c0f51c {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_01e1ba9b76da40beadd4c2a2a9687726 {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_bb781b52cbc24035a4daa5be09788e8c {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_7f7a2a2b86ae475b9a472b8844198589 {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_11a46c1139f145dfb7376c9dad54ebdc {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_435209095a46412c8c2ddfc342cd8a3f {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_72ed6fe1bad64fb7bcfefc337c86f5b4 {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_0a11eb969b86474aa81b95a58aaf09ee {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_4f5f9bc635f649a1bb1fc0c110464aed {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_ce0dfa54e74448b29cf051c27541017e {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_ba45f16001134d6fbaae89cb7558f7c1 {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_5ff7c67469514202af55338ae06b94e3 {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_0e05fc9c4bba4ef5bd9cb394bbb45f26 {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_cd74b243f2d342f4a126e155a002c090 {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_44e531b2368449fd92d366329635abeb {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_22e74d7ba1b543e4adcfd31595347697 {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_4e645e90a29c4eeaaf94ed8460ef7dba {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_2a611b5a0f1e4ce6a5de636184196927 {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_8094515bdc2e41148c88089e8fff8b00 {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_65e632480bc346569102cd9121aa8d68 {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_721a32dc734d4315b5b67cd2a252c1ac" ></div>
+        
+</body>
+<script>    
+    
+            var map_721a32dc734d4315b5b67cd2a252c1ac = L.map(
+                "map_721a32dc734d4315b5b67cd2a252c1ac",
+                {
+                    center: [51.4812, -0.11065],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b8e77f294e6048fb8c44e5f430a88fd4 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+    var color_map_41c9918353f9457c8dcc316a8a6bb422 = {};
+
+    
+    color_map_41c9918353f9457c8dcc316a8a6bb422.color = d3.scale.threshold()
+              .domain([1.0, 1.0981963927855711, 1.1963927855711423, 1.2945891783567134, 1.3927855711422845, 1.4909819639278556, 1.5891783567134268, 1.6873747494989981, 1.785571142284569, 1.8837675350701404, 1.9819639278557113, 2.0801603206412826, 2.1783567134268536, 2.276553106212425, 2.3747494989979963, 2.472945891783567, 2.571142284569138, 2.6693386773547094, 2.7675350701402808, 2.8657314629258517, 2.9639278557114226, 3.062124248496994, 3.1603206412825653, 3.258517034068136, 3.3567134268537075, 3.4549098196392785, 3.55310621242485, 3.6513026052104207, 3.749498997995992, 3.847695390781563, 3.9458917835671343, 4.044088176352705, 4.142284569138276, 4.240480961923847, 4.338677354709419, 4.436873747494991, 4.5350701402805615, 4.6332665330661325, 4.731462925851703, 4.829659318637274, 4.927855711422845, 5.026052104208417, 5.124248496993988, 5.222444889779559, 5.320641282565131, 5.4188376753507015, 5.517034068136272, 5.615230460921843, 5.713426853707415, 5.811623246492986, 5.909819639278557, 6.008016032064128, 6.1062124248497, 6.2044088176352705, 6.302605210420841, 6.400801603206413, 6.498997995991984, 6.597194388777555, 6.695390781563126, 6.793587174348698, 6.891783567134269, 6.98997995991984, 7.0881763527054105, 7.186372745490982, 7.284569138276553, 7.382765531062124, 7.480961923847695, 7.579158316633267, 7.677354709418838, 7.775551102204409, 7.87374749498998, 7.971943887775551, 8.070140280561123, 8.168336673346694, 8.266533066132265, 8.364729458917836, 8.462925851703407, 8.561122244488978, 8.659318637274549, 8.75751503006012, 8.85571142284569, 8.953907815631261, 9.052104208416834, 9.150300601202405, 9.248496993987976, 9.346693386773547, 9.444889779559118, 9.54308617234469, 9.641282565130261, 9.739478957915832, 9.837675350701403, 9.935871743486974, 10.034068136272545, 10.132264529058116, 10.230460921843687, 10.32865731462926, 10.42685370741483, 10.525050100200401, 10.623246492985972, 10.721442885771543, 10.819639278557114, 10.917835671342685, 11.016032064128256, 11.114228456913828, 11.2124248496994, 11.31062124248497, 11.408817635270541, 11.507014028056112, 11.605210420841683, 11.703406813627254, 11.801603206412826, 11.899799599198397, 11.997995991983968, 12.09619238476954, 12.19438877755511, 12.292585170340681, 12.390781563126252, 12.488977955911823, 12.587174348697395, 12.685370741482966, 12.783567134268537, 12.881763527054108, 12.97995991983968, 13.07815631262525, 13.176352705410821, 13.274549098196394, 13.372745490981965, 13.470941883767535, 13.569138276553106, 13.667334669338677, 13.765531062124248, 13.863727454909819, 13.96192384769539, 14.060120240480963, 14.158316633266534, 14.256513026052104, 14.354709418837675, 14.452905811623246, 14.551102204408817, 14.649298597194388, 14.74749498997996, 14.845691382765532, 14.943887775551103, 15.042084168336673, 15.140280561122244, 15.238476953907815, 15.336673346693386, 15.434869739478957, 15.53306613226453, 15.6312625250501, 15.729458917835672, 15.827655310621243, 15.925851703406813, 16.024048096192384, 16.122244488977955, 16.22044088176353, 16.318637274549097, 16.41683366733467, 16.51503006012024, 16.613226452905813, 16.71142284569138, 16.809619238476955, 16.907815631262523, 17.006012024048097, 17.104208416833668, 17.20240480961924, 17.30060120240481, 17.39879759519038, 17.49699398797595, 17.595190380761522, 17.693386773547093, 17.791583166332664, 17.889779559118235, 17.987975951903806, 18.08617234468938, 18.18436873747495, 18.282565130260522, 18.380761523046093, 18.478957915831664, 18.577154308617235, 18.675350701402806, 18.773547094188377, 18.871743486973948, 18.96993987975952, 19.06813627254509, 19.16633266533066, 19.26452905811623, 19.362725450901802, 19.460921843687373, 19.559118236472944, 19.65731462925852, 19.75551102204409, 19.85370741482966, 19.95190380761523, 20.050100200400802, 20.148296593186373, 20.246492985971944, 20.344689378757515, 20.442885771543086, 20.541082164328657, 20.639278557114228, 20.7374749498998, 20.83567134268537, 20.93386773547094, 21.03206412825651, 21.130260521042086, 21.228456913827657, 21.326653306613228, 21.4248496993988, 21.52304609218437, 21.62124248496994, 21.71943887775551, 21.817635270541082, 21.915831663326653, 22.014028056112224, 22.112224448897795, 22.210420841683366, 22.308617234468937, 22.406813627254508, 22.50501002004008, 22.603206412825653, 22.701402805611224, 22.799599198396795, 22.897795591182366, 22.995991983967937, 23.094188376753507, 23.19238476953908, 23.29058116232465, 23.38877755511022, 23.48697394789579, 23.585170340681362, 23.683366733466933, 23.781563126252504, 23.879759519038075, 23.977955911823646, 24.07615230460922, 24.17434869739479, 24.272545090180362, 24.370741482965933, 24.468937875751504, 24.567134268537075, 24.665330661322646, 24.763527054108216, 24.861723446893787, 24.95991983967936, 25.05811623246493, 25.1563126252505, 25.25450901803607, 25.352705410821642, 25.450901803607213, 25.549098196392787, 25.647294589178358, 25.74549098196393, 25.8436873747495, 25.94188376753507, 26.04008016032064, 26.138276553106213, 26.236472945891784, 26.334669338677354, 26.432865731462925, 26.531062124248496, 26.629258517034067, 26.727454909819638, 26.82565130260521, 26.92384769539078, 27.022044088176354, 27.120240480961925, 27.218436873747496, 27.316633266533067, 27.414829659318638, 27.51302605210421, 27.61122244488978, 27.70941883767535, 27.80761523046092, 27.905811623246493, 28.004008016032063, 28.102204408817634, 28.200400801603205, 28.298597194388776, 28.396793587174347, 28.49498997995992, 28.593186372745492, 28.691382765531063, 28.789579158316634, 28.887775551102205, 28.985971943887776, 29.084168336673347, 29.182364729458918, 29.28056112224449, 29.37875751503006, 29.47695390781563, 29.5751503006012, 29.673346693386772, 29.771543086172343, 29.869739478957914, 29.96793587174349, 30.06613226452906, 30.16432865731463, 30.2625250501002, 30.360721442885772, 30.458917835671343, 30.557114228456914, 30.655310621242485, 30.753507014028056, 30.851703406813627, 30.949899799599198, 31.04809619238477, 31.14629258517034, 31.24448897795591, 31.34268537074148, 31.440881763527056, 31.539078156312627, 31.637274549098198, 31.73547094188377, 31.83366733466934, 31.93186372745491, 32.03006012024048, 32.12825651302605, 32.22645290581163, 32.324649298597194, 32.42284569138276, 32.521042084168336, 32.61923847695391, 32.71743486973948, 32.815631262525045, 32.91382765531062, 33.012024048096194, 33.11022044088176, 33.208416833667336, 33.3066132264529, 33.40480961923848, 33.503006012024045, 33.60120240480962, 33.699398797595194, 33.79759519038076, 33.895791583166336, 33.9939879759519, 34.09218436873748, 34.190380761523045, 34.28857715430862, 34.38677354709419, 34.48496993987976, 34.58316633266533, 34.6813627254509, 34.77955911823647, 34.877755511022045, 34.97595190380761, 35.07414829659319, 35.17234468937876, 35.27054108216433, 35.3687374749499, 35.46693386773547, 35.565130260521045, 35.66332665330661, 35.76152304609219, 35.859719438877754, 35.95791583166333, 36.056112224448896, 36.15430861723447, 36.25250501002004, 36.35070140280561, 36.44889779559118, 36.547094188376754, 36.64529058116233, 36.743486973947896, 36.84168336673347, 36.93987975951904, 37.03807615230461, 37.13627254509018, 37.234468937875754, 37.33266533066132, 37.430861723446895, 37.52905811623246, 37.62725450901804, 37.725450901803605, 37.82364729458918, 37.921843687374746, 38.02004008016032, 38.11823647294589, 38.21643286573146, 38.31462925851704, 38.412825651302605, 38.51102204408818, 38.609218436873746, 38.70741482965932, 38.80561122244489, 38.90380761523046, 39.00200400801603, 39.100200400801604, 39.19839679358717, 39.296593186372746, 39.394789579158314, 39.49298597194389, 39.591182364729455, 39.68937875751503, 39.787575150300604, 39.88577154308617, 39.983967935871746, 40.08216432865731, 40.18036072144289, 40.278557114228455, 40.37675350701403, 40.4749498997996, 40.57314629258517, 40.67134268537074, 40.76953907815631, 40.86773547094188, 40.965931863727455, 41.06412825651302, 41.1623246492986, 41.26052104208417, 41.35871743486974, 41.45691382765531, 41.55511022044088, 41.653306613226455, 41.75150300601202, 41.8496993987976, 41.947895791583164, 42.04609218436874, 42.144288577154306, 42.24248496993988, 42.34068136272545, 42.43887775551102, 42.53707414829659, 42.635270541082164, 42.73346693386774, 42.831663326653306, 42.92985971943888, 43.02805611222445, 43.12625250501002, 43.22444889779559, 43.322645290581164, 43.42084168336673, 43.519038076152306, 43.61723446893787, 43.71543086172345, 43.813627254509015, 43.91182364729459, 44.01002004008016, 44.10821643286573, 44.206412825651306, 44.30460921843687, 44.40280561122245, 44.501002004008015, 44.59919839679359, 44.69739478957916, 44.79559118236473, 44.8937875751503, 44.99198396793587, 45.09018036072144, 45.188376753507015, 45.28657314629258, 45.38476953907816, 45.482965931863724, 45.5811623246493, 45.67935871743487, 45.77755511022044, 45.875751503006015, 45.97394789579158, 46.07214428857716, 46.170340681362724, 46.2685370741483, 46.366733466933866, 46.46492985971944, 46.56312625250501, 46.66132264529058, 46.75951903807615, 46.857715430861724, 46.95591182364729, 47.054108216432866, 47.15230460921844, 47.25050100200401, 47.34869739478958, 47.44689378757515, 47.545090180360724, 47.64328657314629, 47.741482965931866, 47.83967935871743, 47.93787575150301, 48.036072144288575, 48.13426853707415, 48.23246492985972, 48.33066132264529, 48.42885771543086, 48.52705410821643, 48.62525050100201, 48.723446893787575, 48.82164328657315, 48.91983967935872, 49.01803607214429, 49.11623246492986, 49.21442885771543, 49.312625250501, 49.410821643286575, 49.50901803607214, 49.607214428857716, 49.705410821643284, 49.80360721442886, 49.901803607214426, 50.0])
+              .range(['#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#a52a2aff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff']);
+    
+
+    color_map_41c9918353f9457c8dcc316a8a6bb422.x = d3.scale.linear()
+              .domain([1.0, 50.0])
+              .range([0, 400]);
+
+    color_map_41c9918353f9457c8dcc316a8a6bb422.legend = L.control({position: 'topright'});
+    color_map_41c9918353f9457c8dcc316a8a6bb422.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
+    color_map_41c9918353f9457c8dcc316a8a6bb422.legend.addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+
+    color_map_41c9918353f9457c8dcc316a8a6bb422.xAxis = d3.svg.axis()
+        .scale(color_map_41c9918353f9457c8dcc316a8a6bb422.x)
+        .orient("top")
+        .tickSize(1)
+        .tickValues([1, 8, 20, 35, 50]);
+
+    color_map_41c9918353f9457c8dcc316a8a6bb422.svg = d3.select(".legend.leaflet-control").append("svg")
+        .attr("id", 'legend')
+        .attr("width", 450)
+        .attr("height", 40);
+
+    color_map_41c9918353f9457c8dcc316a8a6bb422.g = color_map_41c9918353f9457c8dcc316a8a6bb422.svg.append("g")
+        .attr("class", "key")
+        .attr("transform", "translate(25,16)");
+
+    color_map_41c9918353f9457c8dcc316a8a6bb422.g.selectAll("rect")
+        .data(color_map_41c9918353f9457c8dcc316a8a6bb422.color.range().map(function(d, i) {
+          return {
+            x0: i ? color_map_41c9918353f9457c8dcc316a8a6bb422.x(color_map_41c9918353f9457c8dcc316a8a6bb422.color.domain()[i - 1]) : color_map_41c9918353f9457c8dcc316a8a6bb422.x.range()[0],
+            x1: i < color_map_41c9918353f9457c8dcc316a8a6bb422.color.domain().length ? color_map_41c9918353f9457c8dcc316a8a6bb422.x(color_map_41c9918353f9457c8dcc316a8a6bb422.color.domain()[i]) : color_map_41c9918353f9457c8dcc316a8a6bb422.x.range()[1],
+            z: d
+          };
+        }))
+      .enter().append("rect")
+        .attr("height", 10)
+        .attr("x", function(d) { return d.x0; })
+        .attr("width", function(d) { return d.x1 - d.x0; })
+        .style("fill", function(d) { return d.z; });
+
+    color_map_41c9918353f9457c8dcc316a8a6bb422.g.call(color_map_41c9918353f9457c8dcc316a8a6bb422.xAxis).append("text")
+        .attr("class", "caption")
+        .attr("y", 21)
+        .text('Congestion');
+    
+            var color_line_f8030312ecb74a3b90840edb51603875 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_3a4b6de661f34783a77a3f8c25c918ab = L.polyline(
+                [[[51.4812, -0.11065], [51.4812977, -0.1107099]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_f8030312ecb74a3b90840edb51603875);
+        
+    
+            var color_line_94f46ef63f8f4e9b9ae0de73a5451151 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_09adedc04b3143e2bd77bafe0d5f4fc2 = L.polyline(
+                [[[51.4812977, -0.1107099], [51.480953, -0.110822]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_94f46ef63f8f4e9b9ae0de73a5451151);
+        
+    
+            var color_line_134822b072994cc6a8fb204fe886bc51 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_dcebb2a07a9448ec9cffe428c6625bb8 = L.polyline(
+                [[[51.480953, -0.110822], [51.4808695, -0.1108522]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_134822b072994cc6a8fb204fe886bc51);
+        
+    
+            var color_line_8f66c364dc4449d5ab4d3f045c3c5b36 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_ba5b71fb49db482a93083affab71e061 = L.polyline(
+                [[[51.4808695, -0.1108522], [51.4797024, -0.1115853]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_8f66c364dc4449d5ab4d3f045c3c5b36);
+        
+    
+            var color_line_d285b6c5e508409fb4f79e4c0e392458 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_3dca07c7cea14de9ac165aec345fe648 = L.polyline(
+                [[[51.4797024, -0.1115853], [51.4795767, -0.1116473]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_d285b6c5e508409fb4f79e4c0e392458);
+        
+    
+            var color_line_3a867098617443428dfde4b32341b9b9 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_fade4b96b23a43029cdc68fdebefa30f = L.polyline(
+                [[[51.4795767, -0.1116473], [51.4792324, -0.1117827]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_3a867098617443428dfde4b32341b9b9);
+        
+    
+            var color_line_11e3df6b234e4aa5a9a1abfbe23cbc8f = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_4f539e333cf645fca378c8b248a71195 = L.polyline(
+                [[[51.4792324, -0.1117827], [51.478722, -0.1119682]]],
+                {"bubblingMouseEvents": true, "color": "#ff0000ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ff0000ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_11e3df6b234e4aa5a9a1abfbe23cbc8f);
+        
+    
+            var marker_4045f3f88a524b72a668e0a2455f2c31 = L.marker(
+                [51.4812, -0.11065],
+                {"name": "VehicleC0unt", "overlay": true}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    function vega_parse(spec, div) {
+            vg.parse.spec(spec, function(chart) { chart({el:div}).update(); });}
+    
+        var popup_a6e86545d74e4639a36df6b78bb698dd = L.popup({"maxWidth": 800});
+
+        
+            var vega_3b5b70fb5093426db9d1654bd299bbbb = $(`             <div id="vega_3b5b70fb5093426db9d1654bd299bbbb"></div>             `)[0];
+            popup_a6e86545d74e4639a36df6b78bb698dd.setContent(vega_3b5b70fb5093426db9d1654bd299bbbb);
+        
+
+        marker_4045f3f88a524b72a668e0a2455f2c31.bindPopup(popup_a6e86545d74e4639a36df6b78bb698dd)
+        ;
+
+        
+            
+            vega_parse({"axes": [{"scale": "x", "title": "Vehicle Number", "type": "x"}, {"scale": "y", "title": "Speed(km/hr)", "type": "y"}], "data": [{"name": "table", "values": [{"col": "data", "idx": 0, "val": 52}, {"col": "data", "idx": 1, "val": 7}, {"col": "data", "idx": 2, "val": 30}, {"col": "data", "idx": 3, "val": 27}, {"col": "data", "idx": 4, "val": 19}, {"col": "data", "idx": 5, "val": 54}, {"col": "data", "idx": 6, "val": 41}, {"col": "data", "idx": 7, "val": 18}, {"col": "data", "idx": 8, "val": 14}, {"col": "data", "idx": 9, "val": 56}]}, {"name": "stats", "source": "table", "transform": [{"keys": ["data.idx"], "type": "facet"}, {"type": "stats", "value": "data.val"}]}], "height": 150, "legends": [], "marks": [{"from": {"data": "table", "transform": [{"keys": ["data.col"], "type": "facet"}, {"height": "data.val", "point": "data.idx", "type": "stack"}]}, "marks": [{"properties": {"enter": {"fill": {"field": "data.col", "scale": "color"}, "width": {"band": true, "offset": -1, "scale": "x"}, "x": {"field": "data.idx", "scale": "x"}, "y": {"field": "y", "scale": "y"}, "y2": {"field": "y2", "scale": "y"}}}, "type": "rect"}], "type": "group"}], "padding": "auto", "scales": [{"domain": {"data": "table", "field": "data.idx"}, "name": "x", "range": "width", "type": "ordinal", "zero": false}, {"domain": {"data": "stats", "field": "sum"}, "name": "y", "nice": true, "range": "height"}, {"domain": {"data": "table", "field": "data.col"}, "name": "color", "range": "category20", "type": "ordinal"}], "width": 200},vega_3b5b70fb5093426db9d1654bd299bbbb);
+            
+        
+    
+    
+            var marker_d422d4634a42479598759c911602026d = L.marker(
+                [51.4812, -0.11065],
+                {"name": "VehicleC0unt", "overlay": true}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+        var popup_628814fb1bb64ed9804238a965906d76 = L.popup({"maxWidth": 800});
+
+        
+            var vega_e21083264a59427cbb50d696e10ccb30 = $(`             <div id="vega_e21083264a59427cbb50d696e10ccb30"></div>             `)[0];
+            popup_628814fb1bb64ed9804238a965906d76.setContent(vega_e21083264a59427cbb50d696e10ccb30);
+        
+
+        marker_d422d4634a42479598759c911602026d.bindPopup(popup_628814fb1bb64ed9804238a965906d76)
+        ;
+
+        
+            
+            vega_parse({"axes": [{"scale": "x", "title": "Vehicle Number", "type": "x"}, {"scale": "y", "title": "Speed(km/hr)", "type": "y"}], "data": [{"name": "table", "values": [{"col": "data", "idx": 0, "val": 52}, {"col": "data", "idx": 1, "val": 7}, {"col": "data", "idx": 2, "val": 30}, {"col": "data", "idx": 3, "val": 27}, {"col": "data", "idx": 4, "val": 19}, {"col": "data", "idx": 5, "val": 54}, {"col": "data", "idx": 6, "val": 41}, {"col": "data", "idx": 7, "val": 18}, {"col": "data", "idx": 8, "val": 14}, {"col": "data", "idx": 9, "val": 56}]}, {"name": "stats", "source": "table", "transform": [{"keys": ["data.idx"], "type": "facet"}, {"type": "stats", "value": "data.val"}]}], "height": 150, "legends": [], "marks": [{"from": {"data": "table", "transform": [{"keys": ["data.col"], "type": "facet"}, {"height": "data.val", "point": "data.idx", "type": "stack"}]}, "marks": [{"properties": {"enter": {"fill": {"field": "data.col", "scale": "color"}, "width": {"band": true, "offset": -1, "scale": "x"}, "x": {"field": "data.idx", "scale": "x"}, "y": {"field": "y", "scale": "y"}, "y2": {"field": "y2", "scale": "y"}}}, "type": "rect"}], "type": "group"}], "padding": "auto", "scales": [{"domain": {"data": "table", "field": "data.idx"}, "name": "x", "range": "width", "type": "ordinal", "zero": false}, {"domain": {"data": "stats", "field": "sum"}, "name": "y", "nice": true, "range": "height"}, {"domain": {"data": "table", "field": "data.col"}, "name": "color", "range": "category20", "type": "ordinal"}], "width": 200},vega_e21083264a59427cbb50d696e10ccb30);
+            
+        
+    
+    
+            var color_line_136fbb57cf3b452894802e7e5890e527 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_4f6562ab565e4127a45f7e49ecb8db59 = L.polyline(
+                [[[51.4783, -0.11223], [51.4784409, -0.1120678]]],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#008000ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_136fbb57cf3b452894802e7e5890e527);
+        
+    
+            var color_line_be8d612662e64747872f724496e70cb1 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_7170e16f0f1346abb30a686a80bcfffc = L.polyline(
+                [[[51.4784409, -0.1120678], [51.4777553, -0.1122522]]],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#008000ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_be8d612662e64747872f724496e70cb1);
+        
+    
+            var marker_07a9986f9db44b84858b519c301c9530 = L.marker(
+                [51.4783, -0.11223],
+                {"name": "VehicleC0unt", "overlay": true}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+        var popup_f7b0a6c7b4d646a9900fd2fbd41b5ff4 = L.popup({"maxWidth": 800});
+
+        
+            var vega_170569826d7b4b9b8bf094e245c0f51c = $(`             <div id="vega_170569826d7b4b9b8bf094e245c0f51c"></div>             `)[0];
+            popup_f7b0a6c7b4d646a9900fd2fbd41b5ff4.setContent(vega_170569826d7b4b9b8bf094e245c0f51c);
+        
+
+        marker_07a9986f9db44b84858b519c301c9530.bindPopup(popup_f7b0a6c7b4d646a9900fd2fbd41b5ff4)
+        ;
+
+        
+            
+            vega_parse({"axes": [{"scale": "x", "title": "Vehicle Number", "type": "x"}, {"scale": "y", "title": "Speed(km/hr)", "type": "y"}], "data": [{"name": "table", "values": [{"col": "data", "idx": 0, "val": 9}, {"col": "data", "idx": 1, "val": 48}, {"col": "data", "idx": 2, "val": 58}, {"col": "data", "idx": 3, "val": 28}, {"col": "data", "idx": 4, "val": 54}, {"col": "data", "idx": 5, "val": 19}, {"col": "data", "idx": 6, "val": 29}, {"col": "data", "idx": 7, "val": 46}, {"col": "data", "idx": 8, "val": 59}, {"col": "data", "idx": 9, "val": 42}, {"col": "data", "idx": 10, "val": 47}, {"col": "data", "idx": 11, "val": 2}, {"col": "data", "idx": 12, "val": 55}, {"col": "data", "idx": 13, "val": 26}, {"col": "data", "idx": 14, "val": 56}, {"col": "data", "idx": 15, "val": 40}, {"col": "data", "idx": 16, "val": 16}]}, {"name": "stats", "source": "table", "transform": [{"keys": ["data.idx"], "type": "facet"}, {"type": "stats", "value": "data.val"}]}], "height": 150, "legends": [], "marks": [{"from": {"data": "table", "transform": [{"keys": ["data.col"], "type": "facet"}, {"height": "data.val", "point": "data.idx", "type": "stack"}]}, "marks": [{"properties": {"enter": {"fill": {"field": "data.col", "scale": "color"}, "width": {"band": true, "offset": -1, "scale": "x"}, "x": {"field": "data.idx", "scale": "x"}, "y": {"field": "y", "scale": "y"}, "y2": {"field": "y2", "scale": "y"}}}, "type": "rect"}], "type": "group"}], "padding": "auto", "scales": [{"domain": {"data": "table", "field": "data.idx"}, "name": "x", "range": "width", "type": "ordinal", "zero": false}, {"domain": {"data": "stats", "field": "sum"}, "name": "y", "nice": true, "range": "height"}, {"domain": {"data": "table", "field": "data.col"}, "name": "color", "range": "category20", "type": "ordinal"}], "width": 200},vega_170569826d7b4b9b8bf094e245c0f51c);
+            
+        
+    
+    
+            var marker_ff87b1bb06124a0297a470b80829fd23 = L.marker(
+                [51.4783, -0.11223],
+                {"name": "VehicleC0unt", "overlay": true}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+        var popup_6f74e4759f8b47b2b36daf79892bc5a3 = L.popup({"maxWidth": 800});
+
+        
+            var vega_01e1ba9b76da40beadd4c2a2a9687726 = $(`             <div id="vega_01e1ba9b76da40beadd4c2a2a9687726"></div>             `)[0];
+            popup_6f74e4759f8b47b2b36daf79892bc5a3.setContent(vega_01e1ba9b76da40beadd4c2a2a9687726);
+        
+
+        marker_ff87b1bb06124a0297a470b80829fd23.bindPopup(popup_6f74e4759f8b47b2b36daf79892bc5a3)
+        ;
+
+        
+            
+            vega_parse({"axes": [{"scale": "x", "title": "Vehicle Number", "type": "x"}, {"scale": "y", "title": "Speed(km/hr)", "type": "y"}], "data": [{"name": "table", "values": [{"col": "data", "idx": 0, "val": 9}, {"col": "data", "idx": 1, "val": 48}, {"col": "data", "idx": 2, "val": 58}, {"col": "data", "idx": 3, "val": 28}, {"col": "data", "idx": 4, "val": 54}, {"col": "data", "idx": 5, "val": 19}, {"col": "data", "idx": 6, "val": 29}, {"col": "data", "idx": 7, "val": 46}, {"col": "data", "idx": 8, "val": 59}, {"col": "data", "idx": 9, "val": 42}, {"col": "data", "idx": 10, "val": 47}, {"col": "data", "idx": 11, "val": 2}, {"col": "data", "idx": 12, "val": 55}, {"col": "data", "idx": 13, "val": 26}, {"col": "data", "idx": 14, "val": 56}, {"col": "data", "idx": 15, "val": 40}, {"col": "data", "idx": 16, "val": 16}]}, {"name": "stats", "source": "table", "transform": [{"keys": ["data.idx"], "type": "facet"}, {"type": "stats", "value": "data.val"}]}], "height": 150, "legends": [], "marks": [{"from": {"data": "table", "transform": [{"keys": ["data.col"], "type": "facet"}, {"height": "data.val", "point": "data.idx", "type": "stack"}]}, "marks": [{"properties": {"enter": {"fill": {"field": "data.col", "scale": "color"}, "width": {"band": true, "offset": -1, "scale": "x"}, "x": {"field": "data.idx", "scale": "x"}, "y": {"field": "y", "scale": "y"}, "y2": {"field": "y2", "scale": "y"}}}, "type": "rect"}], "type": "group"}], "padding": "auto", "scales": [{"domain": {"data": "table", "field": "data.idx"}, "name": "x", "range": "width", "type": "ordinal", "zero": false}, {"domain": {"data": "stats", "field": "sum"}, "name": "y", "nice": true, "range": "height"}, {"domain": {"data": "table", "field": "data.col"}, "name": "color", "range": "category20", "type": "ordinal"}], "width": 200},vega_01e1ba9b76da40beadd4c2a2a9687726);
+            
+        
+    
+    
+            var color_line_6060fad49b1e4fa0b55cd3c2fe0a20d9 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_7083ab4a4a174d25a2d42cad3ceced8d = L.polyline(
+                [[[51.4765, -0.11232], [51.4767863, -0.1123995]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_6060fad49b1e4fa0b55cd3c2fe0a20d9);
+        
+    
+            var color_line_f327884b365742b7b633e50f14fd49c9 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_fb9a38d4571b41e18b702a355839c49d = L.polyline(
+                [[[51.4767863, -0.1123995], [51.4761739, -0.1124662]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_f327884b365742b7b633e50f14fd49c9);
+        
+    
+            var marker_0db4bcd5c9414124876bb1d622fc8d77 = L.marker(
+                [51.4765, -0.11232],
+                {"name": "VehicleC0unt", "overlay": true}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+        var popup_ea3ac12ba728424a8e179cc8a8100234 = L.popup({"maxWidth": 800});
+
+        
+            var vega_bb781b52cbc24035a4daa5be09788e8c = $(`             <div id="vega_bb781b52cbc24035a4daa5be09788e8c"></div>             `)[0];
+            popup_ea3ac12ba728424a8e179cc8a8100234.setContent(vega_bb781b52cbc24035a4daa5be09788e8c);
+        
+
+        marker_0db4bcd5c9414124876bb1d622fc8d77.bindPopup(popup_ea3ac12ba728424a8e179cc8a8100234)
+        ;
+
+        
+            
+            vega_parse({"axes": [{"scale": "x", "title": "Vehicle Number", "type": "x"}, {"scale": "y", "title": "Speed(km/hr)", "type": "y"}], "data": [{"name": "table", "values": [{"col": "data", "idx": 0, "val": 11}, {"col": "data", "idx": 1, "val": 37}, {"col": "data", "idx": 2, "val": 40}, {"col": "data", "idx": 3, "val": 54}, {"col": "data", "idx": 4, "val": 38}, {"col": "data", "idx": 5, "val": 2}, {"col": "data", "idx": 6, "val": 15}, {"col": "data", "idx": 7, "val": 20}, {"col": "data", "idx": 8, "val": 47}, {"col": "data", "idx": 9, "val": 54}]}, {"name": "stats", "source": "table", "transform": [{"keys": ["data.idx"], "type": "facet"}, {"type": "stats", "value": "data.val"}]}], "height": 150, "legends": [], "marks": [{"from": {"data": "table", "transform": [{"keys": ["data.col"], "type": "facet"}, {"height": "data.val", "point": "data.idx", "type": "stack"}]}, "marks": [{"properties": {"enter": {"fill": {"field": "data.col", "scale": "color"}, "width": {"band": true, "offset": -1, "scale": "x"}, "x": {"field": "data.idx", "scale": "x"}, "y": {"field": "y", "scale": "y"}, "y2": {"field": "y2", "scale": "y"}}}, "type": "rect"}], "type": "group"}], "padding": "auto", "scales": [{"domain": {"data": "table", "field": "data.idx"}, "name": "x", "range": "width", "type": "ordinal", "zero": false}, {"domain": {"data": "stats", "field": "sum"}, "name": "y", "nice": true, "range": "height"}, {"domain": {"data": "table", "field": "data.col"}, "name": "color", "range": "category20", "type": "ordinal"}], "width": 200},vega_bb781b52cbc24035a4daa5be09788e8c);
+            
+        
+    
+    
+            var marker_e5985589cea143088612520dbbcdf29c = L.marker(
+                [51.4765, -0.11232],
+                {"name": "VehicleC0unt", "overlay": true}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+        var popup_7fbf8223bb6c4bc19bbc8a64b4013efb = L.popup({"maxWidth": 800});
+
+        
+            var vega_7f7a2a2b86ae475b9a472b8844198589 = $(`             <div id="vega_7f7a2a2b86ae475b9a472b8844198589"></div>             `)[0];
+            popup_7fbf8223bb6c4bc19bbc8a64b4013efb.setContent(vega_7f7a2a2b86ae475b9a472b8844198589);
+        
+
+        marker_e5985589cea143088612520dbbcdf29c.bindPopup(popup_7fbf8223bb6c4bc19bbc8a64b4013efb)
+        ;
+
+        
+            
+            vega_parse({"axes": [{"scale": "x", "title": "Vehicle Number", "type": "x"}, {"scale": "y", "title": "Speed(km/hr)", "type": "y"}], "data": [{"name": "table", "values": [{"col": "data", "idx": 0, "val": 11}, {"col": "data", "idx": 1, "val": 37}, {"col": "data", "idx": 2, "val": 40}, {"col": "data", "idx": 3, "val": 54}, {"col": "data", "idx": 4, "val": 38}, {"col": "data", "idx": 5, "val": 2}, {"col": "data", "idx": 6, "val": 15}, {"col": "data", "idx": 7, "val": 20}, {"col": "data", "idx": 8, "val": 47}, {"col": "data", "idx": 9, "val": 54}]}, {"name": "stats", "source": "table", "transform": [{"keys": ["data.idx"], "type": "facet"}, {"type": "stats", "value": "data.val"}]}], "height": 150, "legends": [], "marks": [{"from": {"data": "table", "transform": [{"keys": ["data.col"], "type": "facet"}, {"height": "data.val", "point": "data.idx", "type": "stack"}]}, "marks": [{"properties": {"enter": {"fill": {"field": "data.col", "scale": "color"}, "width": {"band": true, "offset": -1, "scale": "x"}, "x": {"field": "data.idx", "scale": "x"}, "y": {"field": "y", "scale": "y"}, "y2": {"field": "y2", "scale": "y"}}}, "type": "rect"}], "type": "group"}], "padding": "auto", "scales": [{"domain": {"data": "table", "field": "data.idx"}, "name": "x", "range": "width", "type": "ordinal", "zero": false}, {"domain": {"data": "stats", "field": "sum"}, "name": "y", "nice": true, "range": "height"}, {"domain": {"data": "table", "field": "data.col"}, "name": "color", "range": "category20", "type": "ordinal"}], "width": 200},vega_7f7a2a2b86ae475b9a472b8844198589);
+            
+        
+    
+    
+            var color_line_9d21895533b74e5c8b4890226fc0c702 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_9f065f699e264b3d84413fb344ba6fde = L.polyline(
+                [[[51.4741, -0.11272], [51.4741058, -0.1127078]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_9d21895533b74e5c8b4890226fc0c702);
+        
+    
+            var color_line_4717f2d091a648f8a4a88e7870847e66 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_6199d828850441f18b1e4bedcf3fcba5 = L.polyline(
+                [[[51.4741058, -0.1127078], [51.4738555, -0.1127181]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_4717f2d091a648f8a4a88e7870847e66);
+        
+    
+            var color_line_f0f72a7cca004baeabc4f4ede72b1ea7 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_fc0342bcd7374fbf9653bdfb55fcc546 = L.polyline(
+                [[[51.4738555, -0.1127181], [51.4733366, -0.1127499]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_f0f72a7cca004baeabc4f4ede72b1ea7);
+        
+    
+            var color_line_f17fc0911564425cb3a2bbe94d553490 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_8b6b5d325e134dd29aaefa395f67e84d = L.polyline(
+                [[[51.4733366, -0.1127499], [51.47311, -0.1127561]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_f17fc0911564425cb3a2bbe94d553490);
+        
+    
+            var color_line_1538e7c75c914a609dcd4f849afe9a1b = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_9057ac52a46f4dba9f620d3d2a9ba1fd = L.polyline(
+                [[[51.47311, -0.1127561], [51.472328, -0.1127476]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_1538e7c75c914a609dcd4f849afe9a1b);
+        
+    
+            var color_line_dd1f991f741c45b985f7a06a61a00e0c = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_8ca2b0445dea4b24a85a21373a7aef11 = L.polyline(
+                [[[51.472328, -0.1127476], [51.472193, -0.1127294]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_dd1f991f741c45b985f7a06a61a00e0c);
+        
+    
+            var marker_81be9dca59414d079ab3dbb724eaa98b = L.marker(
+                [51.4741, -0.11272],
+                {"name": "VehicleC0unt", "overlay": true}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+        var popup_dc68164243574cf6acdc7208a1dad17f = L.popup({"maxWidth": 800});
+
+        
+            var vega_11a46c1139f145dfb7376c9dad54ebdc = $(`             <div id="vega_11a46c1139f145dfb7376c9dad54ebdc"></div>             `)[0];
+            popup_dc68164243574cf6acdc7208a1dad17f.setContent(vega_11a46c1139f145dfb7376c9dad54ebdc);
+        
+
+        marker_81be9dca59414d079ab3dbb724eaa98b.bindPopup(popup_dc68164243574cf6acdc7208a1dad17f)
+        ;
+
+        
+            
+            vega_parse({"axes": [{"scale": "x", "title": "Vehicle Number", "type": "x"}, {"scale": "y", "title": "Speed(km/hr)", "type": "y"}], "data": [{"name": "table", "values": [{"col": "data", "idx": 0, "val": 49}, {"col": "data", "idx": 1, "val": 21}, {"col": "data", "idx": 2, "val": 43}, {"col": "data", "idx": 3, "val": 1}, {"col": "data", "idx": 4, "val": 19}, {"col": "data", "idx": 5, "val": 26}, {"col": "data", "idx": 6, "val": 59}, {"col": "data", "idx": 7, "val": 8}, {"col": "data", "idx": 8, "val": 13}, {"col": "data", "idx": 9, "val": 21}]}, {"name": "stats", "source": "table", "transform": [{"keys": ["data.idx"], "type": "facet"}, {"type": "stats", "value": "data.val"}]}], "height": 150, "legends": [], "marks": [{"from": {"data": "table", "transform": [{"keys": ["data.col"], "type": "facet"}, {"height": "data.val", "point": "data.idx", "type": "stack"}]}, "marks": [{"properties": {"enter": {"fill": {"field": "data.col", "scale": "color"}, "width": {"band": true, "offset": -1, "scale": "x"}, "x": {"field": "data.idx", "scale": "x"}, "y": {"field": "y", "scale": "y"}, "y2": {"field": "y2", "scale": "y"}}}, "type": "rect"}], "type": "group"}], "padding": "auto", "scales": [{"domain": {"data": "table", "field": "data.idx"}, "name": "x", "range": "width", "type": "ordinal", "zero": false}, {"domain": {"data": "stats", "field": "sum"}, "name": "y", "nice": true, "range": "height"}, {"domain": {"data": "table", "field": "data.col"}, "name": "color", "range": "category20", "type": "ordinal"}], "width": 200},vega_11a46c1139f145dfb7376c9dad54ebdc);
+            
+        
+    
+    
+            var marker_abdf3d5063a64789bb4f90e0a90c8942 = L.marker(
+                [51.4741, -0.11272],
+                {"name": "VehicleC0unt", "overlay": true}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+        var popup_4baac89792a24dc6af715d5b26703f2d = L.popup({"maxWidth": 800});
+
+        
+            var vega_435209095a46412c8c2ddfc342cd8a3f = $(`             <div id="vega_435209095a46412c8c2ddfc342cd8a3f"></div>             `)[0];
+            popup_4baac89792a24dc6af715d5b26703f2d.setContent(vega_435209095a46412c8c2ddfc342cd8a3f);
+        
+
+        marker_abdf3d5063a64789bb4f90e0a90c8942.bindPopup(popup_4baac89792a24dc6af715d5b26703f2d)
+        ;
+
+        
+            
+            vega_parse({"axes": [{"scale": "x", "title": "Vehicle Number", "type": "x"}, {"scale": "y", "title": "Speed(km/hr)", "type": "y"}], "data": [{"name": "table", "values": [{"col": "data", "idx": 0, "val": 49}, {"col": "data", "idx": 1, "val": 21}, {"col": "data", "idx": 2, "val": 43}, {"col": "data", "idx": 3, "val": 1}, {"col": "data", "idx": 4, "val": 19}, {"col": "data", "idx": 5, "val": 26}, {"col": "data", "idx": 6, "val": 59}, {"col": "data", "idx": 7, "val": 8}, {"col": "data", "idx": 8, "val": 13}, {"col": "data", "idx": 9, "val": 21}]}, {"name": "stats", "source": "table", "transform": [{"keys": ["data.idx"], "type": "facet"}, {"type": "stats", "value": "data.val"}]}], "height": 150, "legends": [], "marks": [{"from": {"data": "table", "transform": [{"keys": ["data.col"], "type": "facet"}, {"height": "data.val", "point": "data.idx", "type": "stack"}]}, "marks": [{"properties": {"enter": {"fill": {"field": "data.col", "scale": "color"}, "width": {"band": true, "offset": -1, "scale": "x"}, "x": {"field": "data.idx", "scale": "x"}, "y": {"field": "y", "scale": "y"}, "y2": {"field": "y2", "scale": "y"}}}, "type": "rect"}], "type": "group"}], "padding": "auto", "scales": [{"domain": {"data": "table", "field": "data.idx"}, "name": "x", "range": "width", "type": "ordinal", "zero": false}, {"domain": {"data": "stats", "field": "sum"}, "name": "y", "nice": true, "range": "height"}, {"domain": {"data": "table", "field": "data.col"}, "name": "color", "range": "category20", "type": "ordinal"}], "width": 200},vega_435209095a46412c8c2ddfc342cd8a3f);
+            
+        
+    
+    
+            var color_line_747aae9ffec94e9c971745a784fce4fd = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_6482f0e6ff314071972c1b6a79ecfd77 = L.polyline(
+                [[[51.4714, -0.11265], [51.4707762, -0.1125439]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_747aae9ffec94e9c971745a784fce4fd);
+        
+    
+            var color_line_39e19a85d4004590875aea03fb5ddd07 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_6f13cd6bdeab44ba899ecaff676d8443 = L.polyline(
+                [[[51.4707762, -0.1125439], [51.4704235, -0.1125102]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_39e19a85d4004590875aea03fb5ddd07);
+        
+    
+            var color_line_6affcf6a9ed344378901d4ed29db7a2b = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_4ef7894121fe47ac9e22980901cf1969 = L.polyline(
+                [[[51.4704235, -0.1125102], [51.4700942, -0.1125016]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_6affcf6a9ed344378901d4ed29db7a2b);
+        
+    
+            var marker_c735a7d775c74cb8a20e6cc21849a8b9 = L.marker(
+                [51.4714, -0.11265],
+                {"name": "VehicleC0unt", "overlay": true}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+        var popup_8f8e1e98f8d44fc7af35955ef3725e81 = L.popup({"maxWidth": 800});
+
+        
+            var vega_72ed6fe1bad64fb7bcfefc337c86f5b4 = $(`             <div id="vega_72ed6fe1bad64fb7bcfefc337c86f5b4"></div>             `)[0];
+            popup_8f8e1e98f8d44fc7af35955ef3725e81.setContent(vega_72ed6fe1bad64fb7bcfefc337c86f5b4);
+        
+
+        marker_c735a7d775c74cb8a20e6cc21849a8b9.bindPopup(popup_8f8e1e98f8d44fc7af35955ef3725e81)
+        ;
+
+        
+            
+            vega_parse({"axes": [{"scale": "x", "title": "Vehicle Number", "type": "x"}, {"scale": "y", "title": "Speed(km/hr)", "type": "y"}], "data": [{"name": "table", "values": [{"col": "data", "idx": 0, "val": 35}, {"col": "data", "idx": 1, "val": 23}, {"col": "data", "idx": 2, "val": 36}, {"col": "data", "idx": 3, "val": 1}, {"col": "data", "idx": 4, "val": 7}, {"col": "data", "idx": 5, "val": 21}, {"col": "data", "idx": 6, "val": 28}]}, {"name": "stats", "source": "table", "transform": [{"keys": ["data.idx"], "type": "facet"}, {"type": "stats", "value": "data.val"}]}], "height": 150, "legends": [], "marks": [{"from": {"data": "table", "transform": [{"keys": ["data.col"], "type": "facet"}, {"height": "data.val", "point": "data.idx", "type": "stack"}]}, "marks": [{"properties": {"enter": {"fill": {"field": "data.col", "scale": "color"}, "width": {"band": true, "offset": -1, "scale": "x"}, "x": {"field": "data.idx", "scale": "x"}, "y": {"field": "y", "scale": "y"}, "y2": {"field": "y2", "scale": "y"}}}, "type": "rect"}], "type": "group"}], "padding": "auto", "scales": [{"domain": {"data": "table", "field": "data.idx"}, "name": "x", "range": "width", "type": "ordinal", "zero": false}, {"domain": {"data": "stats", "field": "sum"}, "name": "y", "nice": true, "range": "height"}, {"domain": {"data": "table", "field": "data.col"}, "name": "color", "range": "category20", "type": "ordinal"}], "width": 200},vega_72ed6fe1bad64fb7bcfefc337c86f5b4);
+            
+        
+    
+    
+            var marker_55271a06cd5f481aac2acbd9a5cb33bb = L.marker(
+                [51.4714, -0.11265],
+                {"name": "VehicleC0unt", "overlay": true}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+        var popup_f32f7413c2d64a839f2ca45d8f71416b = L.popup({"maxWidth": 800});
+
+        
+            var vega_0a11eb969b86474aa81b95a58aaf09ee = $(`             <div id="vega_0a11eb969b86474aa81b95a58aaf09ee"></div>             `)[0];
+            popup_f32f7413c2d64a839f2ca45d8f71416b.setContent(vega_0a11eb969b86474aa81b95a58aaf09ee);
+        
+
+        marker_55271a06cd5f481aac2acbd9a5cb33bb.bindPopup(popup_f32f7413c2d64a839f2ca45d8f71416b)
+        ;
+
+        
+            
+            vega_parse({"axes": [{"scale": "x", "title": "Vehicle Number", "type": "x"}, {"scale": "y", "title": "Speed(km/hr)", "type": "y"}], "data": [{"name": "table", "values": [{"col": "data", "idx": 0, "val": 35}, {"col": "data", "idx": 1, "val": 23}, {"col": "data", "idx": 2, "val": 36}, {"col": "data", "idx": 3, "val": 1}, {"col": "data", "idx": 4, "val": 7}, {"col": "data", "idx": 5, "val": 21}, {"col": "data", "idx": 6, "val": 28}]}, {"name": "stats", "source": "table", "transform": [{"keys": ["data.idx"], "type": "facet"}, {"type": "stats", "value": "data.val"}]}], "height": 150, "legends": [], "marks": [{"from": {"data": "table", "transform": [{"keys": ["data.col"], "type": "facet"}, {"height": "data.val", "point": "data.idx", "type": "stack"}]}, "marks": [{"properties": {"enter": {"fill": {"field": "data.col", "scale": "color"}, "width": {"band": true, "offset": -1, "scale": "x"}, "x": {"field": "data.idx", "scale": "x"}, "y": {"field": "y", "scale": "y"}, "y2": {"field": "y2", "scale": "y"}}}, "type": "rect"}], "type": "group"}], "padding": "auto", "scales": [{"domain": {"data": "table", "field": "data.idx"}, "name": "x", "range": "width", "type": "ordinal", "zero": false}, {"domain": {"data": "stats", "field": "sum"}, "name": "y", "nice": true, "range": "height"}, {"domain": {"data": "table", "field": "data.col"}, "name": "color", "range": "category20", "type": "ordinal"}], "width": 200},vega_0a11eb969b86474aa81b95a58aaf09ee);
+            
+        
+    
+    
+            var color_line_9c65b9989d8d4c7e9398e0c32bea3869 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_40b4da418d6a4f9c873f9681170de684 = L.polyline(
+                [[[51.4692, -0.1125], [51.469188, -0.1124782]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_9c65b9989d8d4c7e9398e0c32bea3869);
+        
+    
+            var color_line_b5737ce633624c43a1d43fab41e246d6 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_b6d895e02407410a94086d9364d42d55 = L.polyline(
+                [[[51.469188, -0.1124782], [51.4688228, -0.1124697]]],
+                {"bubblingMouseEvents": true, "color": "#ff0000ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ff0000ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_b5737ce633624c43a1d43fab41e246d6);
+        
+    
+            var color_line_03f4965b31c64b969a0bb0c7a0cf5081 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_85f6ee44331c4fc09bcb54b53aa54376 = L.polyline(
+                [[[51.4688228, -0.1124697], [51.4673077, -0.1128337]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_03f4965b31c64b969a0bb0c7a0cf5081);
+        
+    
+            var color_line_0ff7d3b63b7d40a09e31eb4105c66352 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_f81eecb75cf642f59d1ba1877d636c04 = L.polyline(
+                [[[51.4673077, -0.1128337], [51.4662998, -0.1133794]]],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#008000ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_0ff7d3b63b7d40a09e31eb4105c66352);
+        
+    
+            var color_line_5fea405733ed4b30ad1fc5daa4aee9c2 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_747b26f46f90482a8aafb1b88f57a185 = L.polyline(
+                [[[51.4662998, -0.1133794], [51.4662159, -0.1133723]]],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#008000ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_5fea405733ed4b30ad1fc5daa4aee9c2);
+        
+    
+            var marker_e81575e6d49046ed80572a18aba22e7d = L.marker(
+                [51.4692, -0.1125],
+                {"name": "VehicleC0unt", "overlay": true}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+        var popup_0a9d051381cd49ba8abac251f506ff3c = L.popup({"maxWidth": 800});
+
+        
+            var vega_4f5f9bc635f649a1bb1fc0c110464aed = $(`             <div id="vega_4f5f9bc635f649a1bb1fc0c110464aed"></div>             `)[0];
+            popup_0a9d051381cd49ba8abac251f506ff3c.setContent(vega_4f5f9bc635f649a1bb1fc0c110464aed);
+        
+
+        marker_e81575e6d49046ed80572a18aba22e7d.bindPopup(popup_0a9d051381cd49ba8abac251f506ff3c)
+        ;
+
+        
+            
+            vega_parse({"axes": [{"scale": "x", "title": "Vehicle Number", "type": "x"}, {"scale": "y", "title": "Speed(km/hr)", "type": "y"}], "data": [{"name": "table", "values": [{"col": "data", "idx": 0, "val": 3}, {"col": "data", "idx": 1, "val": 5}, {"col": "data", "idx": 2, "val": 1}, {"col": "data", "idx": 3, "val": 44}, {"col": "data", "idx": 4, "val": 0}, {"col": "data", "idx": 5, "val": 6}, {"col": "data", "idx": 6, "val": 12}, {"col": "data", "idx": 7, "val": 54}, {"col": "data", "idx": 8, "val": 42}, {"col": "data", "idx": 9, "val": 36}, {"col": "data", "idx": 10, "val": 24}, {"col": "data", "idx": 11, "val": 48}, {"col": "data", "idx": 12, "val": 3}]}, {"name": "stats", "source": "table", "transform": [{"keys": ["data.idx"], "type": "facet"}, {"type": "stats", "value": "data.val"}]}], "height": 150, "legends": [], "marks": [{"from": {"data": "table", "transform": [{"keys": ["data.col"], "type": "facet"}, {"height": "data.val", "point": "data.idx", "type": "stack"}]}, "marks": [{"properties": {"enter": {"fill": {"field": "data.col", "scale": "color"}, "width": {"band": true, "offset": -1, "scale": "x"}, "x": {"field": "data.idx", "scale": "x"}, "y": {"field": "y", "scale": "y"}, "y2": {"field": "y2", "scale": "y"}}}, "type": "rect"}], "type": "group"}], "padding": "auto", "scales": [{"domain": {"data": "table", "field": "data.idx"}, "name": "x", "range": "width", "type": "ordinal", "zero": false}, {"domain": {"data": "stats", "field": "sum"}, "name": "y", "nice": true, "range": "height"}, {"domain": {"data": "table", "field": "data.col"}, "name": "color", "range": "category20", "type": "ordinal"}], "width": 200},vega_4f5f9bc635f649a1bb1fc0c110464aed);
+            
+        
+    
+    
+            var marker_ea926e7de6c74208947ff3d98aa02ff9 = L.marker(
+                [51.4692, -0.1125],
+                {"name": "VehicleC0unt", "overlay": true}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+        var popup_4d8c47c5edb94e908aba9adb92962bdd = L.popup({"maxWidth": 800});
+
+        
+            var vega_ce0dfa54e74448b29cf051c27541017e = $(`             <div id="vega_ce0dfa54e74448b29cf051c27541017e"></div>             `)[0];
+            popup_4d8c47c5edb94e908aba9adb92962bdd.setContent(vega_ce0dfa54e74448b29cf051c27541017e);
+        
+
+        marker_ea926e7de6c74208947ff3d98aa02ff9.bindPopup(popup_4d8c47c5edb94e908aba9adb92962bdd)
+        ;
+
+        
+            
+            vega_parse({"axes": [{"scale": "x", "title": "Vehicle Number", "type": "x"}, {"scale": "y", "title": "Speed(km/hr)", "type": "y"}], "data": [{"name": "table", "values": [{"col": "data", "idx": 0, "val": 3}, {"col": "data", "idx": 1, "val": 5}, {"col": "data", "idx": 2, "val": 1}, {"col": "data", "idx": 3, "val": 44}, {"col": "data", "idx": 4, "val": 0}, {"col": "data", "idx": 5, "val": 6}, {"col": "data", "idx": 6, "val": 12}, {"col": "data", "idx": 7, "val": 54}, {"col": "data", "idx": 8, "val": 42}, {"col": "data", "idx": 9, "val": 36}, {"col": "data", "idx": 10, "val": 24}, {"col": "data", "idx": 11, "val": 48}, {"col": "data", "idx": 12, "val": 3}]}, {"name": "stats", "source": "table", "transform": [{"keys": ["data.idx"], "type": "facet"}, {"type": "stats", "value": "data.val"}]}], "height": 150, "legends": [], "marks": [{"from": {"data": "table", "transform": [{"keys": ["data.col"], "type": "facet"}, {"height": "data.val", "point": "data.idx", "type": "stack"}]}, "marks": [{"properties": {"enter": {"fill": {"field": "data.col", "scale": "color"}, "width": {"band": true, "offset": -1, "scale": "x"}, "x": {"field": "data.idx", "scale": "x"}, "y": {"field": "y", "scale": "y"}, "y2": {"field": "y2", "scale": "y"}}}, "type": "rect"}], "type": "group"}], "padding": "auto", "scales": [{"domain": {"data": "table", "field": "data.idx"}, "name": "x", "range": "width", "type": "ordinal", "zero": false}, {"domain": {"data": "stats", "field": "sum"}, "name": "y", "nice": true, "range": "height"}, {"domain": {"data": "table", "field": "data.col"}, "name": "color", "range": "category20", "type": "ordinal"}], "width": 200},vega_ce0dfa54e74448b29cf051c27541017e);
+            
+        
+    
+    
+            var color_line_ca39ed3e5e364c3396b9bec0fde0cc50 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_924f6f367514404ab413804111637512 = L.polyline(
+                [[[51.466, -0.11345], [51.4659892, -0.1135696]]],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#008000ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_ca39ed3e5e364c3396b9bec0fde0cc50);
+        
+    
+            var color_line_4515874a2190491ba2a73dda9ca422a5 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_ff8b381254da43d2a5fab4b837ab2778 = L.polyline(
+                [[[51.4659892, -0.1135696], [51.4651294, -0.1139761]]],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#008000ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_4515874a2190491ba2a73dda9ca422a5);
+        
+    
+            var color_line_65dfe7b29c7748fe9e64b80c89bc9f7f = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_186b8c71dab749649be5683567cc1c7d = L.polyline(
+                [[[51.4651294, -0.1139761], [51.4647238, -0.1141896]]],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#008000ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_65dfe7b29c7748fe9e64b80c89bc9f7f);
+        
+    
+            var color_line_51b71bf615ed40398d07e844d33aa631 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_788a8afa6f3b42a1a13ee56064cb38e2 = L.polyline(
+                [[[51.4647238, -0.1141896], [51.4638292, -0.1145764]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_51b71bf615ed40398d07e844d33aa631);
+        
+    
+            var color_line_1b55d70f71384d5ba79134d2ff553a1c = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_12d662e3f1ec42bcbe690f1d13756e7e = L.polyline(
+                [[[51.4638292, -0.1145764], [51.4632908, -0.1148312]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_1b55d70f71384d5ba79134d2ff553a1c);
+        
+    
+            var color_line_b513a077c5a44ef2a1b1e048d68df99b = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_3d8cf28e6d7c449990b2e2741c3e0858 = L.polyline(
+                [[[51.4632908, -0.1148312], [51.4628478, -0.1150021]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_b513a077c5a44ef2a1b1e048d68df99b);
+        
+    
+            var marker_4a3165ed6eaf4aa9a2a29c84f70abaed = L.marker(
+                [51.466, -0.11345],
+                {"name": "VehicleC0unt", "overlay": true}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+        var popup_51dc3ba9185442b8a21547949dc03b0a = L.popup({"maxWidth": 800});
+
+        
+            var vega_ba45f16001134d6fbaae89cb7558f7c1 = $(`             <div id="vega_ba45f16001134d6fbaae89cb7558f7c1"></div>             `)[0];
+            popup_51dc3ba9185442b8a21547949dc03b0a.setContent(vega_ba45f16001134d6fbaae89cb7558f7c1);
+        
+
+        marker_4a3165ed6eaf4aa9a2a29c84f70abaed.bindPopup(popup_51dc3ba9185442b8a21547949dc03b0a)
+        ;
+
+        
+            
+            vega_parse({"axes": [{"scale": "x", "title": "Vehicle Number", "type": "x"}, {"scale": "y", "title": "Speed(km/hr)", "type": "y"}], "data": [{"name": "table", "values": [{"col": "data", "idx": 0, "val": 59}, {"col": "data", "idx": 1, "val": 51}, {"col": "data", "idx": 2, "val": 30}, {"col": "data", "idx": 3, "val": 5}, {"col": "data", "idx": 4, "val": 10}, {"col": "data", "idx": 5, "val": 28}, {"col": "data", "idx": 6, "val": 56}, {"col": "data", "idx": 7, "val": 26}, {"col": "data", "idx": 8, "val": 33}, {"col": "data", "idx": 9, "val": 38}]}, {"name": "stats", "source": "table", "transform": [{"keys": ["data.idx"], "type": "facet"}, {"type": "stats", "value": "data.val"}]}], "height": 150, "legends": [], "marks": [{"from": {"data": "table", "transform": [{"keys": ["data.col"], "type": "facet"}, {"height": "data.val", "point": "data.idx", "type": "stack"}]}, "marks": [{"properties": {"enter": {"fill": {"field": "data.col", "scale": "color"}, "width": {"band": true, "offset": -1, "scale": "x"}, "x": {"field": "data.idx", "scale": "x"}, "y": {"field": "y", "scale": "y"}, "y2": {"field": "y2", "scale": "y"}}}, "type": "rect"}], "type": "group"}], "padding": "auto", "scales": [{"domain": {"data": "table", "field": "data.idx"}, "name": "x", "range": "width", "type": "ordinal", "zero": false}, {"domain": {"data": "stats", "field": "sum"}, "name": "y", "nice": true, "range": "height"}, {"domain": {"data": "table", "field": "data.col"}, "name": "color", "range": "category20", "type": "ordinal"}], "width": 200},vega_ba45f16001134d6fbaae89cb7558f7c1);
+            
+        
+    
+    
+            var marker_60627291f66c48e28fffef89cb280693 = L.marker(
+                [51.466, -0.11345],
+                {"name": "VehicleC0unt", "overlay": true}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+        var popup_54f1befc62eb4238ab9c5ae00c6bf24c = L.popup({"maxWidth": 800});
+
+        
+            var vega_5ff7c67469514202af55338ae06b94e3 = $(`             <div id="vega_5ff7c67469514202af55338ae06b94e3"></div>             `)[0];
+            popup_54f1befc62eb4238ab9c5ae00c6bf24c.setContent(vega_5ff7c67469514202af55338ae06b94e3);
+        
+
+        marker_60627291f66c48e28fffef89cb280693.bindPopup(popup_54f1befc62eb4238ab9c5ae00c6bf24c)
+        ;
+
+        
+            
+            vega_parse({"axes": [{"scale": "x", "title": "Vehicle Number", "type": "x"}, {"scale": "y", "title": "Speed(km/hr)", "type": "y"}], "data": [{"name": "table", "values": [{"col": "data", "idx": 0, "val": 59}, {"col": "data", "idx": 1, "val": 51}, {"col": "data", "idx": 2, "val": 30}, {"col": "data", "idx": 3, "val": 5}, {"col": "data", "idx": 4, "val": 10}, {"col": "data", "idx": 5, "val": 28}, {"col": "data", "idx": 6, "val": 56}, {"col": "data", "idx": 7, "val": 26}, {"col": "data", "idx": 8, "val": 33}, {"col": "data", "idx": 9, "val": 38}]}, {"name": "stats", "source": "table", "transform": [{"keys": ["data.idx"], "type": "facet"}, {"type": "stats", "value": "data.val"}]}], "height": 150, "legends": [], "marks": [{"from": {"data": "table", "transform": [{"keys": ["data.col"], "type": "facet"}, {"height": "data.val", "point": "data.idx", "type": "stack"}]}, "marks": [{"properties": {"enter": {"fill": {"field": "data.col", "scale": "color"}, "width": {"band": true, "offset": -1, "scale": "x"}, "x": {"field": "data.idx", "scale": "x"}, "y": {"field": "y", "scale": "y"}, "y2": {"field": "y2", "scale": "y"}}}, "type": "rect"}], "type": "group"}], "padding": "auto", "scales": [{"domain": {"data": "table", "field": "data.idx"}, "name": "x", "range": "width", "type": "ordinal", "zero": false}, {"domain": {"data": "stats", "field": "sum"}, "name": "y", "nice": true, "range": "height"}, {"domain": {"data": "table", "field": "data.col"}, "name": "color", "range": "category20", "type": "ordinal"}], "width": 200},vega_5ff7c67469514202af55338ae06b94e3);
+            
+        
+    
+    
+            var color_line_ba8f27dcbd454350b06c6fac284b00ae = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_f49940e5b9b34a009c85a1d5045d32f3 = L.polyline(
+                [[[51.4614, -0.11563], [51.4612386, -0.1156975]]],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#008000ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_ba8f27dcbd454350b06c6fac284b00ae);
+        
+    
+            var color_line_6643aec731874118969e4cbf0b3b7365 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_6f77405940144da8afe2f0670cb6e7ec = L.polyline(
+                [[[51.4612386, -0.1156975], [51.4611217, -0.1157467]]],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#008000ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_6643aec731874118969e4cbf0b3b7365);
+        
+    
+            var color_line_24911d49032a4066b60c2ee42dd41ac2 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_38cc9323ecd94c8d86a4251e02c52850 = L.polyline(
+                [[[51.4611217, -0.1157467], [51.4610136, -0.115714]]],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#008000ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_24911d49032a4066b60c2ee42dd41ac2);
+        
+    
+            var marker_c7070e7e7432400c90023f209bf4ae43 = L.marker(
+                [51.4614, -0.11563],
+                {"name": "VehicleC0unt", "overlay": true}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+        var popup_92f9cec6d53b442e90ad6f781787c304 = L.popup({"maxWidth": 800});
+
+        
+            var vega_0e05fc9c4bba4ef5bd9cb394bbb45f26 = $(`             <div id="vega_0e05fc9c4bba4ef5bd9cb394bbb45f26"></div>             `)[0];
+            popup_92f9cec6d53b442e90ad6f781787c304.setContent(vega_0e05fc9c4bba4ef5bd9cb394bbb45f26);
+        
+
+        marker_c7070e7e7432400c90023f209bf4ae43.bindPopup(popup_92f9cec6d53b442e90ad6f781787c304)
+        ;
+
+        
+            
+            vega_parse({"axes": [{"scale": "x", "title": "Vehicle Number", "type": "x"}, {"scale": "y", "title": "Speed(km/hr)", "type": "y"}], "data": [{"name": "table", "values": [{"col": "data", "idx": 0, "val": 37}, {"col": "data", "idx": 1, "val": 56}, {"col": "data", "idx": 2, "val": 57}, {"col": "data", "idx": 3, "val": 26}, {"col": "data", "idx": 4, "val": 42}, {"col": "data", "idx": 5, "val": 52}, {"col": "data", "idx": 6, "val": 38}, {"col": "data", "idx": 7, "val": 6}, {"col": "data", "idx": 8, "val": 15}, {"col": "data", "idx": 9, "val": 2}, {"col": "data", "idx": 10, "val": 9}, {"col": "data", "idx": 11, "val": 32}, {"col": "data", "idx": 12, "val": 29}, {"col": "data", "idx": 13, "val": 57}]}, {"name": "stats", "source": "table", "transform": [{"keys": ["data.idx"], "type": "facet"}, {"type": "stats", "value": "data.val"}]}], "height": 150, "legends": [], "marks": [{"from": {"data": "table", "transform": [{"keys": ["data.col"], "type": "facet"}, {"height": "data.val", "point": "data.idx", "type": "stack"}]}, "marks": [{"properties": {"enter": {"fill": {"field": "data.col", "scale": "color"}, "width": {"band": true, "offset": -1, "scale": "x"}, "x": {"field": "data.idx", "scale": "x"}, "y": {"field": "y", "scale": "y"}, "y2": {"field": "y2", "scale": "y"}}}, "type": "rect"}], "type": "group"}], "padding": "auto", "scales": [{"domain": {"data": "table", "field": "data.idx"}, "name": "x", "range": "width", "type": "ordinal", "zero": false}, {"domain": {"data": "stats", "field": "sum"}, "name": "y", "nice": true, "range": "height"}, {"domain": {"data": "table", "field": "data.col"}, "name": "color", "range": "category20", "type": "ordinal"}], "width": 200},vega_0e05fc9c4bba4ef5bd9cb394bbb45f26);
+            
+        
+    
+    
+            var marker_ee2da04182e847cb9eaaad451a52154a = L.marker(
+                [51.4614, -0.11563],
+                {"name": "VehicleC0unt", "overlay": true}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+        var popup_9cde1a89a0504a8dabba29fe3a4f0e3c = L.popup({"maxWidth": 800});
+
+        
+            var vega_cd74b243f2d342f4a126e155a002c090 = $(`             <div id="vega_cd74b243f2d342f4a126e155a002c090"></div>             `)[0];
+            popup_9cde1a89a0504a8dabba29fe3a4f0e3c.setContent(vega_cd74b243f2d342f4a126e155a002c090);
+        
+
+        marker_ee2da04182e847cb9eaaad451a52154a.bindPopup(popup_9cde1a89a0504a8dabba29fe3a4f0e3c)
+        ;
+
+        
+            
+            vega_parse({"axes": [{"scale": "x", "title": "Vehicle Number", "type": "x"}, {"scale": "y", "title": "Speed(km/hr)", "type": "y"}], "data": [{"name": "table", "values": [{"col": "data", "idx": 0, "val": 37}, {"col": "data", "idx": 1, "val": 56}, {"col": "data", "idx": 2, "val": 57}, {"col": "data", "idx": 3, "val": 26}, {"col": "data", "idx": 4, "val": 42}, {"col": "data", "idx": 5, "val": 52}, {"col": "data", "idx": 6, "val": 38}, {"col": "data", "idx": 7, "val": 6}, {"col": "data", "idx": 8, "val": 15}, {"col": "data", "idx": 9, "val": 2}, {"col": "data", "idx": 10, "val": 9}, {"col": "data", "idx": 11, "val": 32}, {"col": "data", "idx": 12, "val": 29}, {"col": "data", "idx": 13, "val": 57}]}, {"name": "stats", "source": "table", "transform": [{"keys": ["data.idx"], "type": "facet"}, {"type": "stats", "value": "data.val"}]}], "height": 150, "legends": [], "marks": [{"from": {"data": "table", "transform": [{"keys": ["data.col"], "type": "facet"}, {"height": "data.val", "point": "data.idx", "type": "stack"}]}, "marks": [{"properties": {"enter": {"fill": {"field": "data.col", "scale": "color"}, "width": {"band": true, "offset": -1, "scale": "x"}, "x": {"field": "data.idx", "scale": "x"}, "y": {"field": "y", "scale": "y"}, "y2": {"field": "y2", "scale": "y"}}}, "type": "rect"}], "type": "group"}], "padding": "auto", "scales": [{"domain": {"data": "table", "field": "data.idx"}, "name": "x", "range": "width", "type": "ordinal", "zero": false}, {"domain": {"data": "stats", "field": "sum"}, "name": "y", "nice": true, "range": "height"}, {"domain": {"data": "table", "field": "data.col"}, "name": "color", "range": "category20", "type": "ordinal"}], "width": 200},vega_cd74b243f2d342f4a126e155a002c090);
+            
+        
+    
+    
+            var color_line_7eebb727335d4bcc989ff33925e817a3 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_fe9b3fd1338445a4a43c37d0b293e558 = L.polyline(
+                [[[51.4606, -0.11628], [51.4608904, -0.1159057]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_7eebb727335d4bcc989ff33925e817a3);
+        
+    
+            var color_line_f14d053f6d394b978f9b5b5ea49b82de = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_890e7191bbd347569b3282d1c4096705 = L.polyline(
+                [[[51.4608904, -0.1159057], [51.4594898, -0.1167683]]],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#008000ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_f14d053f6d394b978f9b5b5ea49b82de);
+        
+    
+            var color_line_38d92839e4ee4264be81430c33be9670 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_83a06f923d274a6bbd85003f0ad33afd = L.polyline(
+                [[[51.4594898, -0.1167683], [51.4592421, -0.1169225]]],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#008000ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_38d92839e4ee4264be81430c33be9670);
+        
+    
+            var color_line_011a84b4c2bf44aa9e885b57d216bfcf = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_68aec76a946e4631bd2275ae350eee12 = L.polyline(
+                [[[51.4592421, -0.1169225], [51.458638, -0.1172876]]],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#008000ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_011a84b4c2bf44aa9e885b57d216bfcf);
+        
+    
+            var color_line_ef31b4426a5a430baf2bb4ef2924a837 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_705f114ab8ae4be0922af8ee739a5209 = L.polyline(
+                [[[51.458638, -0.1172876], [51.4581716, -0.1175615]]],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#008000ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_ef31b4426a5a430baf2bb4ef2924a837);
+        
+    
+            var color_line_b44364fc28ea4a06a708790de7919d53 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_50d46291236e4d25be35102c1e754a7f = L.polyline(
+                [[[51.4581716, -0.1175615], [51.4572844, -0.1180884]]],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#008000ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_b44364fc28ea4a06a708790de7919d53);
+        
+    
+            var color_line_ff71ef60e1df4e6483a53226b338d79b = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_19e98ce4687241ba9897ade99d4230ac = L.polyline(
+                [[[51.4572844, -0.1180884], [51.4567127, -0.118439]]],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#008000ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_ff71ef60e1df4e6483a53226b338d79b);
+        
+    
+            var color_line_ed03a1d4508340028de6df9d02e194a5 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_73599a6dc7424950a95aac11366c0890 = L.polyline(
+                [[[51.4567127, -0.118439], [51.4560024, -0.1188847]]],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#008000ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_ed03a1d4508340028de6df9d02e194a5);
+        
+    
+            var color_line_16a405064a9d46669ebda4b12250174f = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_1b1a984c9aaa4cf8b14d969fbe71ea18 = L.polyline(
+                [[[51.4560024, -0.1188847], [51.4556742, -0.1190832]]],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#008000ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_16a405064a9d46669ebda4b12250174f);
+        
+    
+            var marker_40697558731e414687227d577aadc0ba = L.marker(
+                [51.4606, -0.11628],
+                {"name": "VehicleC0unt", "overlay": true}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+        var popup_ca7f658ee55d44de8154f0a3c27dc74e = L.popup({"maxWidth": 800});
+
+        
+            var vega_44e531b2368449fd92d366329635abeb = $(`             <div id="vega_44e531b2368449fd92d366329635abeb"></div>             `)[0];
+            popup_ca7f658ee55d44de8154f0a3c27dc74e.setContent(vega_44e531b2368449fd92d366329635abeb);
+        
+
+        marker_40697558731e414687227d577aadc0ba.bindPopup(popup_ca7f658ee55d44de8154f0a3c27dc74e)
+        ;
+
+        
+            
+            vega_parse({"axes": [{"scale": "x", "title": "Vehicle Number", "type": "x"}, {"scale": "y", "title": "Speed(km/hr)", "type": "y"}], "data": [{"name": "table", "values": [{"col": "data", "idx": 0, "val": 15}, {"col": "data", "idx": 1, "val": 41}, {"col": "data", "idx": 2, "val": 49}, {"col": "data", "idx": 3, "val": 14}, {"col": "data", "idx": 4, "val": 47}, {"col": "data", "idx": 5, "val": 33}, {"col": "data", "idx": 6, "val": 55}, {"col": "data", "idx": 7, "val": 31}, {"col": "data", "idx": 8, "val": 30}, {"col": "data", "idx": 9, "val": 52}, {"col": "data", "idx": 10, "val": 57}, {"col": "data", "idx": 11, "val": 44}, {"col": "data", "idx": 12, "val": 39}, {"col": "data", "idx": 13, "val": 37}, {"col": "data", "idx": 14, "val": 50}, {"col": "data", "idx": 15, "val": 42}, {"col": "data", "idx": 16, "val": 17}]}, {"name": "stats", "source": "table", "transform": [{"keys": ["data.idx"], "type": "facet"}, {"type": "stats", "value": "data.val"}]}], "height": 150, "legends": [], "marks": [{"from": {"data": "table", "transform": [{"keys": ["data.col"], "type": "facet"}, {"height": "data.val", "point": "data.idx", "type": "stack"}]}, "marks": [{"properties": {"enter": {"fill": {"field": "data.col", "scale": "color"}, "width": {"band": true, "offset": -1, "scale": "x"}, "x": {"field": "data.idx", "scale": "x"}, "y": {"field": "y", "scale": "y"}, "y2": {"field": "y2", "scale": "y"}}}, "type": "rect"}], "type": "group"}], "padding": "auto", "scales": [{"domain": {"data": "table", "field": "data.idx"}, "name": "x", "range": "width", "type": "ordinal", "zero": false}, {"domain": {"data": "stats", "field": "sum"}, "name": "y", "nice": true, "range": "height"}, {"domain": {"data": "table", "field": "data.col"}, "name": "color", "range": "category20", "type": "ordinal"}], "width": 200},vega_44e531b2368449fd92d366329635abeb);
+            
+        
+    
+    
+            var marker_ad987750051e425ca130d39f9e606f84 = L.marker(
+                [51.4606, -0.11628],
+                {"name": "VehicleC0unt", "overlay": true}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+        var popup_fa71a11e15a84c73a23060d00172a521 = L.popup({"maxWidth": 800});
+
+        
+            var vega_22e74d7ba1b543e4adcfd31595347697 = $(`             <div id="vega_22e74d7ba1b543e4adcfd31595347697"></div>             `)[0];
+            popup_fa71a11e15a84c73a23060d00172a521.setContent(vega_22e74d7ba1b543e4adcfd31595347697);
+        
+
+        marker_ad987750051e425ca130d39f9e606f84.bindPopup(popup_fa71a11e15a84c73a23060d00172a521)
+        ;
+
+        
+            
+            vega_parse({"axes": [{"scale": "x", "title": "Vehicle Number", "type": "x"}, {"scale": "y", "title": "Speed(km/hr)", "type": "y"}], "data": [{"name": "table", "values": [{"col": "data", "idx": 0, "val": 15}, {"col": "data", "idx": 1, "val": 41}, {"col": "data", "idx": 2, "val": 49}, {"col": "data", "idx": 3, "val": 14}, {"col": "data", "idx": 4, "val": 47}, {"col": "data", "idx": 5, "val": 33}, {"col": "data", "idx": 6, "val": 55}, {"col": "data", "idx": 7, "val": 31}, {"col": "data", "idx": 8, "val": 30}, {"col": "data", "idx": 9, "val": 52}, {"col": "data", "idx": 10, "val": 57}, {"col": "data", "idx": 11, "val": 44}, {"col": "data", "idx": 12, "val": 39}, {"col": "data", "idx": 13, "val": 37}, {"col": "data", "idx": 14, "val": 50}, {"col": "data", "idx": 15, "val": 42}, {"col": "data", "idx": 16, "val": 17}]}, {"name": "stats", "source": "table", "transform": [{"keys": ["data.idx"], "type": "facet"}, {"type": "stats", "value": "data.val"}]}], "height": 150, "legends": [], "marks": [{"from": {"data": "table", "transform": [{"keys": ["data.col"], "type": "facet"}, {"height": "data.val", "point": "data.idx", "type": "stack"}]}, "marks": [{"properties": {"enter": {"fill": {"field": "data.col", "scale": "color"}, "width": {"band": true, "offset": -1, "scale": "x"}, "x": {"field": "data.idx", "scale": "x"}, "y": {"field": "y", "scale": "y"}, "y2": {"field": "y2", "scale": "y"}}}, "type": "rect"}], "type": "group"}], "padding": "auto", "scales": [{"domain": {"data": "table", "field": "data.idx"}, "name": "x", "range": "width", "type": "ordinal", "zero": false}, {"domain": {"data": "stats", "field": "sum"}, "name": "y", "nice": true, "range": "height"}, {"domain": {"data": "table", "field": "data.col"}, "name": "color", "range": "category20", "type": "ordinal"}], "width": 200},vega_22e74d7ba1b543e4adcfd31595347697);
+            
+        
+    
+    
+            var color_line_76bd085f49784db8a2249741170ec742 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_5a5f1c12a65f4db1a97cee146b5f429a = L.polyline(
+                [[[51.4553, -0.1194], [51.4552478, -0.1193507]]],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#008000ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_76bd085f49784db8a2249741170ec742);
+        
+    
+            var color_line_e80ab74dca074c4dac86840e5e80f8fe = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_f91fc24145394638af9b775073555283 = L.polyline(
+                [[[51.4552478, -0.1193507], [51.4545383, -0.1198192]]],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#008000ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_e80ab74dca074c4dac86840e5e80f8fe);
+        
+    
+            var color_line_5a6e4d12376b41e7b0e4ea6f16c4184c = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_b39e80e4d4e84d589a3862d0f67bf042 = L.polyline(
+                [[[51.4545383, -0.1198192], [51.4544844, -0.1198527]]],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#008000ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_5a6e4d12376b41e7b0e4ea6f16c4184c);
+        
+    
+            var color_line_99ebfd75a1154505adaefd32ed4359c1 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_2138744081fc44ff8ddbbf17576ba446 = L.polyline(
+                [[[51.4544844, -0.1198527], [51.4537626, -0.1202933]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_99ebfd75a1154505adaefd32ed4359c1);
+        
+    
+            var color_line_e7ce5a6eec674bec9dd39836458cdd8f = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_80362d70835c47f9bc2d7dd73275b736 = L.polyline(
+                [[[51.4537626, -0.1202933], [51.4535881, -0.1203981]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_e7ce5a6eec674bec9dd39836458cdd8f);
+        
+    
+            var color_line_fbcc3ad3db85471ca63b4dd34a2e62a6 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_e35d564201914dd28c81fd6de6ffeb1c = L.polyline(
+                [[[51.4535881, -0.1203981], [51.452628, -0.1209945]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_fbcc3ad3db85471ca63b4dd34a2e62a6);
+        
+    
+            var color_line_6097c598807d4dd19f9b421430241b45 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_d6722aa53b034eb9a3fd815b813411c2 = L.polyline(
+                [[[51.452628, -0.1209945], [51.4519886, -0.1213899]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_6097c598807d4dd19f9b421430241b45);
+        
+    
+            var marker_79165586b63b4a708c35baab4d1fc1ea = L.marker(
+                [51.4553, -0.1194],
+                {"name": "VehicleC0unt", "overlay": true}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+        var popup_3e37a9288bc24fd191d1fb2214424035 = L.popup({"maxWidth": 800});
+
+        
+            var vega_4e645e90a29c4eeaaf94ed8460ef7dba = $(`             <div id="vega_4e645e90a29c4eeaaf94ed8460ef7dba"></div>             `)[0];
+            popup_3e37a9288bc24fd191d1fb2214424035.setContent(vega_4e645e90a29c4eeaaf94ed8460ef7dba);
+        
+
+        marker_79165586b63b4a708c35baab4d1fc1ea.bindPopup(popup_3e37a9288bc24fd191d1fb2214424035)
+        ;
+
+        
+            
+            vega_parse({"axes": [{"scale": "x", "title": "Vehicle Number", "type": "x"}, {"scale": "y", "title": "Speed(km/hr)", "type": "y"}], "data": [{"name": "table", "values": [{"col": "data", "idx": 0, "val": 40}, {"col": "data", "idx": 1, "val": 52}, {"col": "data", "idx": 2, "val": 18}, {"col": "data", "idx": 3, "val": 28}, {"col": "data", "idx": 4, "val": 11}, {"col": "data", "idx": 5, "val": 48}]}, {"name": "stats", "source": "table", "transform": [{"keys": ["data.idx"], "type": "facet"}, {"type": "stats", "value": "data.val"}]}], "height": 150, "legends": [], "marks": [{"from": {"data": "table", "transform": [{"keys": ["data.col"], "type": "facet"}, {"height": "data.val", "point": "data.idx", "type": "stack"}]}, "marks": [{"properties": {"enter": {"fill": {"field": "data.col", "scale": "color"}, "width": {"band": true, "offset": -1, "scale": "x"}, "x": {"field": "data.idx", "scale": "x"}, "y": {"field": "y", "scale": "y"}, "y2": {"field": "y2", "scale": "y"}}}, "type": "rect"}], "type": "group"}], "padding": "auto", "scales": [{"domain": {"data": "table", "field": "data.idx"}, "name": "x", "range": "width", "type": "ordinal", "zero": false}, {"domain": {"data": "stats", "field": "sum"}, "name": "y", "nice": true, "range": "height"}, {"domain": {"data": "table", "field": "data.col"}, "name": "color", "range": "category20", "type": "ordinal"}], "width": 200},vega_4e645e90a29c4eeaaf94ed8460ef7dba);
+            
+        
+    
+    
+            var marker_b2c7f6693a6842ecbfa93275c1931b62 = L.marker(
+                [51.4553, -0.1194],
+                {"name": "VehicleC0unt", "overlay": true}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+        var popup_6ed5545e38a64a9d9ff4fae846eeca53 = L.popup({"maxWidth": 800});
+
+        
+            var vega_2a611b5a0f1e4ce6a5de636184196927 = $(`             <div id="vega_2a611b5a0f1e4ce6a5de636184196927"></div>             `)[0];
+            popup_6ed5545e38a64a9d9ff4fae846eeca53.setContent(vega_2a611b5a0f1e4ce6a5de636184196927);
+        
+
+        marker_b2c7f6693a6842ecbfa93275c1931b62.bindPopup(popup_6ed5545e38a64a9d9ff4fae846eeca53)
+        ;
+
+        
+            
+            vega_parse({"axes": [{"scale": "x", "title": "Vehicle Number", "type": "x"}, {"scale": "y", "title": "Speed(km/hr)", "type": "y"}], "data": [{"name": "table", "values": [{"col": "data", "idx": 0, "val": 40}, {"col": "data", "idx": 1, "val": 52}, {"col": "data", "idx": 2, "val": 18}, {"col": "data", "idx": 3, "val": 28}, {"col": "data", "idx": 4, "val": 11}, {"col": "data", "idx": 5, "val": 48}]}, {"name": "stats", "source": "table", "transform": [{"keys": ["data.idx"], "type": "facet"}, {"type": "stats", "value": "data.val"}]}], "height": 150, "legends": [], "marks": [{"from": {"data": "table", "transform": [{"keys": ["data.col"], "type": "facet"}, {"height": "data.val", "point": "data.idx", "type": "stack"}]}, "marks": [{"properties": {"enter": {"fill": {"field": "data.col", "scale": "color"}, "width": {"band": true, "offset": -1, "scale": "x"}, "x": {"field": "data.idx", "scale": "x"}, "y": {"field": "y", "scale": "y"}, "y2": {"field": "y2", "scale": "y"}}}, "type": "rect"}], "type": "group"}], "padding": "auto", "scales": [{"domain": {"data": "table", "field": "data.idx"}, "name": "x", "range": "width", "type": "ordinal", "zero": false}, {"domain": {"data": "stats", "field": "sum"}, "name": "y", "nice": true, "range": "height"}, {"domain": {"data": "table", "field": "data.col"}, "name": "color", "range": "category20", "type": "ordinal"}], "width": 200},vega_2a611b5a0f1e4ce6a5de636184196927);
+            
+        
+    
+    
+            var color_line_0c51508bb1a746babdfa1d405e86d53a = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_6eac5431798a4af282df3c1bae06e00a = L.polyline(
+                [[[51.4517, -0.12151], [51.451646, -0.1216526]]],
+                {"bubblingMouseEvents": true, "color": "#ff0000ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ff0000ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_0c51508bb1a746babdfa1d405e86d53a);
+        
+    
+            var color_line_695e63550cf94eed98696be9c7607785 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_236801c48bde492399d899e92064171e = L.polyline(
+                [[[51.451646, -0.1216526], [51.4510038, -0.1220595]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_695e63550cf94eed98696be9c7607785);
+        
+    
+            var color_line_fc89af7999db4d9b9bf4c87af1063936 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_1acedb382ac94177bd078c5b6882758a = L.polyline(
+                [[[51.4510038, -0.1220595], [51.4507993, -0.1221786]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_fc89af7999db4d9b9bf4c87af1063936);
+        
+    
+            var color_line_effaf2fef246437fba3d579b96fd37fe = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_f0edee3a91ea401e912e16ab5880dc7a = L.polyline(
+                [[[51.4507993, -0.1221786], [51.4502443, -0.1226048]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_effaf2fef246437fba3d579b96fd37fe);
+        
+    
+            var color_line_eadba74ed75641c3976c10103c25f035 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_bf498408196b466d9fd49ecaba139ec6 = L.polyline(
+                [[[51.4502443, -0.1226048], [51.449871, -0.1228909]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_eadba74ed75641c3976c10103c25f035);
+        
+    
+            var color_line_5ea495e4b1f448c59b345e75a528146e = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_98a66cd0f6294daa97adce48f9d10f67 = L.polyline(
+                [[[51.449871, -0.1228909], [51.4492984, -0.123401]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_5ea495e4b1f448c59b345e75a528146e);
+        
+    
+            var color_line_de7130312d5a4e5ca53a38e9883ada97 = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_5f6b727bc64e4089a060372ebbcd4543 = L.polyline(
+                [[[51.4492984, -0.123401], [51.4472995, -0.1242696]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_de7130312d5a4e5ca53a38e9883ada97);
+        
+    
+            var color_line_059a1336ebf74b37afa891d973a6fbaf = L.featureGroup(
+                {}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+            var poly_line_e1eb0bd4d43946bb82166ac234710518 = L.polyline(
+                [[[51.4472995, -0.1242696], [51.4466641, -0.1242795]]],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa500ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 7}
+            ).addTo(color_line_059a1336ebf74b37afa891d973a6fbaf);
+        
+    
+            var marker_44fabf98ce57485b8cb0820552760cda = L.marker(
+                [51.4517, -0.12151],
+                {"name": "VehicleC0unt", "overlay": true}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+        var popup_969ca51b04a7467483ae595679abecdc = L.popup({"maxWidth": 800});
+
+        
+            var vega_8094515bdc2e41148c88089e8fff8b00 = $(`             <div id="vega_8094515bdc2e41148c88089e8fff8b00"></div>             `)[0];
+            popup_969ca51b04a7467483ae595679abecdc.setContent(vega_8094515bdc2e41148c88089e8fff8b00);
+        
+
+        marker_44fabf98ce57485b8cb0820552760cda.bindPopup(popup_969ca51b04a7467483ae595679abecdc)
+        ;
+
+        
+            
+            vega_parse({"axes": [{"scale": "x", "title": "Vehicle Number", "type": "x"}, {"scale": "y", "title": "Speed(km/hr)", "type": "y"}], "data": [{"name": "table", "values": [{"col": "data", "idx": 0, "val": 26}, {"col": "data", "idx": 1, "val": 34}, {"col": "data", "idx": 2, "val": 8}, {"col": "data", "idx": 3, "val": 58}, {"col": "data", "idx": 4, "val": 3}, {"col": "data", "idx": 5, "val": 7}, {"col": "data", "idx": 6, "val": 53}, {"col": "data", "idx": 7, "val": 7}, {"col": "data", "idx": 8, "val": 12}, {"col": "data", "idx": 9, "val": 10}, {"col": "data", "idx": 10, "val": 25}, {"col": "data", "idx": 11, "val": 16}, {"col": "data", "idx": 12, "val": 29}, {"col": "data", "idx": 13, "val": 52}, {"col": "data", "idx": 14, "val": 38}]}, {"name": "stats", "source": "table", "transform": [{"keys": ["data.idx"], "type": "facet"}, {"type": "stats", "value": "data.val"}]}], "height": 150, "legends": [], "marks": [{"from": {"data": "table", "transform": [{"keys": ["data.col"], "type": "facet"}, {"height": "data.val", "point": "data.idx", "type": "stack"}]}, "marks": [{"properties": {"enter": {"fill": {"field": "data.col", "scale": "color"}, "width": {"band": true, "offset": -1, "scale": "x"}, "x": {"field": "data.idx", "scale": "x"}, "y": {"field": "y", "scale": "y"}, "y2": {"field": "y2", "scale": "y"}}}, "type": "rect"}], "type": "group"}], "padding": "auto", "scales": [{"domain": {"data": "table", "field": "data.idx"}, "name": "x", "range": "width", "type": "ordinal", "zero": false}, {"domain": {"data": "stats", "field": "sum"}, "name": "y", "nice": true, "range": "height"}, {"domain": {"data": "table", "field": "data.col"}, "name": "color", "range": "category20", "type": "ordinal"}], "width": 200},vega_8094515bdc2e41148c88089e8fff8b00);
+            
+        
+    
+    
+            var marker_f4341f49396c470ea4f072727dac451e = L.marker(
+                [51.4517, -0.12151],
+                {"name": "VehicleC0unt", "overlay": true}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+    
+        var popup_507bacc56df34b86aa5e5490bd79cfa6 = L.popup({"maxWidth": 800});
+
+        
+            var vega_65e632480bc346569102cd9121aa8d68 = $(`             <div id="vega_65e632480bc346569102cd9121aa8d68"></div>             `)[0];
+            popup_507bacc56df34b86aa5e5490bd79cfa6.setContent(vega_65e632480bc346569102cd9121aa8d68);
+        
+
+        marker_f4341f49396c470ea4f072727dac451e.bindPopup(popup_507bacc56df34b86aa5e5490bd79cfa6)
+        ;
+
+        
+            
+            vega_parse({"axes": [{"scale": "x", "title": "Vehicle Number", "type": "x"}, {"scale": "y", "title": "Speed(km/hr)", "type": "y"}], "data": [{"name": "table", "values": [{"col": "data", "idx": 0, "val": 26}, {"col": "data", "idx": 1, "val": 34}, {"col": "data", "idx": 2, "val": 8}, {"col": "data", "idx": 3, "val": 58}, {"col": "data", "idx": 4, "val": 3}, {"col": "data", "idx": 5, "val": 7}, {"col": "data", "idx": 6, "val": 53}, {"col": "data", "idx": 7, "val": 7}, {"col": "data", "idx": 8, "val": 12}, {"col": "data", "idx": 9, "val": 10}, {"col": "data", "idx": 10, "val": 25}, {"col": "data", "idx": 11, "val": 16}, {"col": "data", "idx": 12, "val": 29}, {"col": "data", "idx": 13, "val": 52}, {"col": "data", "idx": 14, "val": 38}]}, {"name": "stats", "source": "table", "transform": [{"keys": ["data.idx"], "type": "facet"}, {"type": "stats", "value": "data.val"}]}], "height": 150, "legends": [], "marks": [{"from": {"data": "table", "transform": [{"keys": ["data.col"], "type": "facet"}, {"height": "data.val", "point": "data.idx", "type": "stack"}]}, "marks": [{"properties": {"enter": {"fill": {"field": "data.col", "scale": "color"}, "width": {"band": true, "offset": -1, "scale": "x"}, "x": {"field": "data.idx", "scale": "x"}, "y": {"field": "y", "scale": "y"}, "y2": {"field": "y2", "scale": "y"}}}, "type": "rect"}], "type": "group"}], "padding": "auto", "scales": [{"domain": {"data": "table", "field": "data.idx"}, "name": "x", "range": "width", "type": "ordinal", "zero": false}, {"domain": {"data": "stats", "field": "sum"}, "name": "y", "nice": true, "range": "height"}, {"domain": {"data": "table", "field": "data.col"}, "name": "color", "range": "category20", "type": "ordinal"}], "width": 200},vega_65e632480bc346569102cd9121aa8d68);
+            
+        
+    
+    
+            var layer_control_277de8f0fdbb4982a3b979184e682250 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_b8e77f294e6048fb8c44e5f430a88fd4,
+                },
+                overlays :  {
+                    "camera_location_congestion_status(-0.1107099, 51.4812977)" : color_line_f8030312ecb74a3b90840edb51603875,
+                    "camera_location_congestion_status(-0.110822, 51.480953)" : color_line_94f46ef63f8f4e9b9ae0de73a5451151,
+                    "camera_location_congestion_status(-0.1108522, 51.4808695)" : color_line_134822b072994cc6a8fb204fe886bc51,
+                    "camera_location_congestion_status(-0.1115853, 51.4797024)" : color_line_8f66c364dc4449d5ab4d3f045c3c5b36,
+                    "camera_location_congestion_status(-0.1116473, 51.4795767)" : color_line_d285b6c5e508409fb4f79e4c0e392458,
+                    "camera_location_congestion_status(-0.1117827, 51.4792324)" : color_line_3a867098617443428dfde4b32341b9b9,
+                    "camera_location_congestion_status(-0.1119682, 51.478722)" : color_line_11e3df6b234e4aa5a9a1abfbe23cbc8f,
+                    "camera_location_congestion_status(-0.1120678, 51.4784409)" : color_line_136fbb57cf3b452894802e7e5890e527,
+                    "camera_location_congestion_status(-0.1122522, 51.4777553)" : color_line_be8d612662e64747872f724496e70cb1,
+                    "camera_location_congestion_status(-0.1123995, 51.4767863)" : color_line_6060fad49b1e4fa0b55cd3c2fe0a20d9,
+                    "camera_location_congestion_status(-0.1124662, 51.4761739)" : color_line_f327884b365742b7b633e50f14fd49c9,
+                    "camera_location_congestion_status(-0.1127078, 51.4741058)" : color_line_9d21895533b74e5c8b4890226fc0c702,
+                    "camera_location_congestion_status(-0.1127181, 51.4738555)" : color_line_4717f2d091a648f8a4a88e7870847e66,
+                    "camera_location_congestion_status(-0.1127499, 51.4733366)" : color_line_f0f72a7cca004baeabc4f4ede72b1ea7,
+                    "camera_location_congestion_status(-0.1127561, 51.47311)" : color_line_f17fc0911564425cb3a2bbe94d553490,
+                    "camera_location_congestion_status(-0.1127476, 51.472328)" : color_line_1538e7c75c914a609dcd4f849afe9a1b,
+                    "camera_location_congestion_status(-0.1127294, 51.472193)" : color_line_dd1f991f741c45b985f7a06a61a00e0c,
+                    "camera_location_congestion_status(-0.1125439, 51.4707762)" : color_line_747aae9ffec94e9c971745a784fce4fd,
+                    "camera_location_congestion_status(-0.1125102, 51.4704235)" : color_line_39e19a85d4004590875aea03fb5ddd07,
+                    "camera_location_congestion_status(-0.1125016, 51.4700942)" : color_line_6affcf6a9ed344378901d4ed29db7a2b,
+                    "camera_location_congestion_status(-0.1124782, 51.469188)" : color_line_9c65b9989d8d4c7e9398e0c32bea3869,
+                    "camera_location_congestion_status(-0.1124697, 51.4688228)" : color_line_b5737ce633624c43a1d43fab41e246d6,
+                    "camera_location_congestion_status(-0.1128337, 51.4673077)" : color_line_03f4965b31c64b969a0bb0c7a0cf5081,
+                    "camera_location_congestion_status(-0.1133794, 51.4662998)" : color_line_0ff7d3b63b7d40a09e31eb4105c66352,
+                    "camera_location_congestion_status(-0.1133723, 51.4662159)" : color_line_5fea405733ed4b30ad1fc5daa4aee9c2,
+                    "camera_location_congestion_status(-0.1135696, 51.4659892)" : color_line_ca39ed3e5e364c3396b9bec0fde0cc50,
+                    "camera_location_congestion_status(-0.1139761, 51.4651294)" : color_line_4515874a2190491ba2a73dda9ca422a5,
+                    "camera_location_congestion_status(-0.1141896, 51.4647238)" : color_line_65dfe7b29c7748fe9e64b80c89bc9f7f,
+                    "camera_location_congestion_status(-0.1145764, 51.4638292)" : color_line_51b71bf615ed40398d07e844d33aa631,
+                    "camera_location_congestion_status(-0.1148312, 51.4632908)" : color_line_1b55d70f71384d5ba79134d2ff553a1c,
+                    "camera_location_congestion_status(-0.1150021, 51.4628478)" : color_line_b513a077c5a44ef2a1b1e048d68df99b,
+                    "camera_location_congestion_status(-0.1156975, 51.4612386)" : color_line_ba8f27dcbd454350b06c6fac284b00ae,
+                    "camera_location_congestion_status(-0.1157467, 51.4611217)" : color_line_6643aec731874118969e4cbf0b3b7365,
+                    "camera_location_congestion_status(-0.115714, 51.4610136)" : color_line_24911d49032a4066b60c2ee42dd41ac2,
+                    "camera_location_congestion_status(-0.1159057, 51.4608904)" : color_line_7eebb727335d4bcc989ff33925e817a3,
+                    "camera_location_congestion_status(-0.1167683, 51.4594898)" : color_line_f14d053f6d394b978f9b5b5ea49b82de,
+                    "camera_location_congestion_status(-0.1169225, 51.4592421)" : color_line_38d92839e4ee4264be81430c33be9670,
+                    "camera_location_congestion_status(-0.1172876, 51.458638)" : color_line_011a84b4c2bf44aa9e885b57d216bfcf,
+                    "camera_location_congestion_status(-0.1175615, 51.4581716)" : color_line_ef31b4426a5a430baf2bb4ef2924a837,
+                    "camera_location_congestion_status(-0.1180884, 51.4572844)" : color_line_b44364fc28ea4a06a708790de7919d53,
+                    "camera_location_congestion_status(-0.118439, 51.4567127)" : color_line_ff71ef60e1df4e6483a53226b338d79b,
+                    "camera_location_congestion_status(-0.1188847, 51.4560024)" : color_line_ed03a1d4508340028de6df9d02e194a5,
+                    "camera_location_congestion_status(-0.1190832, 51.4556742)" : color_line_16a405064a9d46669ebda4b12250174f,
+                    "camera_location_congestion_status(-0.1193507, 51.4552478)" : color_line_76bd085f49784db8a2249741170ec742,
+                    "camera_location_congestion_status(-0.1198192, 51.4545383)" : color_line_e80ab74dca074c4dac86840e5e80f8fe,
+                    "camera_location_congestion_status(-0.1198527, 51.4544844)" : color_line_5a6e4d12376b41e7b0e4ea6f16c4184c,
+                    "camera_location_congestion_status(-0.1202933, 51.4537626)" : color_line_99ebfd75a1154505adaefd32ed4359c1,
+                    "camera_location_congestion_status(-0.1203981, 51.4535881)" : color_line_e7ce5a6eec674bec9dd39836458cdd8f,
+                    "camera_location_congestion_status(-0.1209945, 51.452628)" : color_line_fbcc3ad3db85471ca63b4dd34a2e62a6,
+                    "camera_location_congestion_status(-0.1213899, 51.4519886)" : color_line_6097c598807d4dd19f9b421430241b45,
+                    "camera_location_congestion_status(-0.1216526, 51.451646)" : color_line_0c51508bb1a746babdfa1d405e86d53a,
+                    "camera_location_congestion_status(-0.1220595, 51.4510038)" : color_line_695e63550cf94eed98696be9c7607785,
+                    "camera_location_congestion_status(-0.1221786, 51.4507993)" : color_line_fc89af7999db4d9b9bf4c87af1063936,
+                    "camera_location_congestion_status(-0.1226048, 51.4502443)" : color_line_effaf2fef246437fba3d579b96fd37fe,
+                    "camera_location_congestion_status(-0.1228909, 51.449871)" : color_line_eadba74ed75641c3976c10103c25f035,
+                    "camera_location_congestion_status(-0.123401, 51.4492984)" : color_line_5ea495e4b1f448c59b345e75a528146e,
+                    "camera_location_congestion_status(-0.1242696, 51.4472995)" : color_line_de7130312d5a4e5ca53a38e9883ada97,
+                    "camera_location_congestion_status(-0.1242795, 51.4466641)" : color_line_059a1336ebf74b37afa891d973a6fbaf,
+                },
+            };
+            L.control.layers(
+                layer_control_277de8f0fdbb4982a3b979184e682250.base_layers,
+                layer_control_277de8f0fdbb4982a3b979184e682250.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_721a32dc734d4315b5b67cd2a252c1ac);
+        
+</script>

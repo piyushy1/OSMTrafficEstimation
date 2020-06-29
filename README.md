@@ -8,6 +8,7 @@ Displaying near-real time traffic state information is a useful feature of digit
 The above operator takes vehicle count, vehicle speed and list of cameras (Lat. and Long.) as input and use OSMNX library to plot traffic related parameters over OSM.
 For the easy usage, I have replaced the Cmaera vehicle count and speed with a random generator function. Please replace the needed values at the given location.
 
+```python
 In [111]
         # for now generating dummy data
         # this will be replaced with the values coming from object detector function
@@ -17,6 +18,7 @@ In [111]
         # replace this with speed calculation functiom
         cam1_veh_speed_list = generate_random_speed(cam1_vehicle_count)
         cam2_veh_speed_list = generate_random_speed(cam2_vehicle_count)
+```
 
 ## Dataset
 Camera Link {Please Connect to author for dataset}

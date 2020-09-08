@@ -25,9 +25,7 @@ In [111]
 
 2: Camera Link {Note: Partial dataset currently available}
 
-Brixton Camera Data:   https://nuigalwayie-my.sharepoint.com/:f:/g/personal/p_yadav1_nuigalway_ie/EvfgsYeJ1t5Hiwok7PkAUXsBScoTulrWx-cDhK8Sfi8NMA?e=URZY12
-
-Kennington Camera Data:   https://nuigalwayie-my.sharepoint.com/:f:/g/personal/p_yadav1_nuigalway_ie/EvjfLNmXEWVFs3q9-fs3X00B_sYTLud9dBcztx1tCXxT4A?e=B10rSQ
+Camera Data:   https://nuigalwayie-my.sharepoint.com/:f:/g/personal/p_yadav1_nuigalway_ie/EmTkcDesdf5AnNZb5aEH_2kBZgfkg_Y-oV0t_3Y8NuDgAg?e=C82KNP
 
 
 ## References
